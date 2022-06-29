@@ -2,47 +2,78 @@ const header = 'Welcome to this wonderful example timeline.';
 const footer = 'A footer goes here.';
 const entries = [
   {
-    id: 'cat',
-    categories: ['cat'],
-    color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
-    image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
-    },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
-    links: [
+    "id": "cloudrunner.md",
+    "title": "I Am Running In The Cloud",
+    "body": "<p>An experiment for two Amazon Echoes. Each repeats a text to the other, introducing new errors on every repetition. A homage to Alvin Lucier, via Oulipo S+7.</p>\n",
+    "links": [
       {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
-      },
+        "href": "http://prehensile.co.uk/blog/2018/02/17/running-in-the-cloud.html",
+        "linkText": "prehensile.co.uk – I Am Running In The Cloud"
+      }
     ],
+    "categories": [
+      "art",
+      "hacking",
+      "personal",
+      "software",
+      "amazon-echo",
+      "language",
+      "sound"
+    ]
   },
   {
-    id: 'dog',
-    categories: ['dog'],
-    color: 'green',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
-    },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
-    links: [
+    "id": "singing.md",
+    "title": "Singing Machines prototype",
+    "body": "<p>A lockdown project - a sketch for an audio device which listens for others like it in its vicinity. If it hears any, it &#39;sings&#39; back to them.</p>\n",
+    "links": [
       {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
-      },
+        "href": "https://vimeo.com/449757242",
+        "linkText": "singing machines wip on Vimeo"
+      }
     ],
+    "categories": [
+      "art",
+      "hacking",
+      "personal",
+      "hardware",
+      "sound"
+    ]
   },
+  {
+    "id": "computers.md",
+    "title": "Crystal Bennes, _When Computers Were Women_",
+    "body": "<p><em>four hand-woven Jacquard wall hangings made of recycled cotton, organic cotton and lambswool, 70cm x 300cm each</em></p>\n<p>When Computers Were Women is a project connected to feminist critiques of physics, and stems from an invited residency at CERN (the European Organisation for Nuclear Research) in 2018.</p>\n<p>I helped Crystal ingest punch card data from photos she&#39;d taken at CERN and translate that data into a format that could be read by software driving the modern weaving machines.</p>\n",
+    "links": [
+      {
+        "href": "https://www.crystalbennes.com/portfolio/when-computers-were-women/",
+        "linkText": "When Computers Were Women | Crystal Bennes"
+      }
+    ],
+    "date": "Thu Jan 20 2022",
+    "categories": [
+      "art",
+      "artistic-collaborator",
+      "personal",
+      "software"
+    ]
+  },
+  {
+    "id": "emfcamp.md",
+    "title": "Electromagnetic Field 2022",
+    "body": "<p>I was one of the Art &amp; Installations Team Leads for EMF2022. Responsibilities included running and recruiting to the team, artist scouting and outreach, coordinating an Arts Council funding bid, curation, artist comms, and helping to set up and maintain installations and look after the artists during the festival.</p>\n",
+    "links": [
+      {
+        "href": "https://www.emfcamp.org",
+        "linkText": "Electromagnetic Field 2022"
+      }
+    ],
+    "date": "Thu Jun 02 2022",
+    "categories": [
+      "art",
+      "hacking",
+      "personal"
+    ]
+  }
 ];
 
 // Page details
