@@ -30,7 +30,10 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-prettier": "^4.0.0",
+    "front-matter": "^4.0.2",
+    "marked": "^4.0.17",
     "moment": "^2.29.1",
-    "node-sass": "npm:sass@^1.44.0"
+    "node-sass": "npm:sass@^1.44.0",
+    "walkdir": "^0.4.1"
   }
 }
