@@ -1,5 +1,6 @@
 ---
 categories: [art,hacking,personal,software,amazon-echo,language,sound]
+date: 2018-02-21
 ---
 
 # I Am Running In The Cloud

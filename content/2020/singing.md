@@ -1,5 +1,6 @@
 ---
 categories: [art,hacking,personal,hardware,sound] 
+date: 2020-08-20
 ---
 
 # Singing Machines prototype
