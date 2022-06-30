@@ -1,6 +1,8 @@
 const pluginSass = require('eleventy-plugin-sass');
+const pluginContent = require('./content-plugin');
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(pluginContent);
   eleventyConfig.addPlugin(pluginSass, {
     autoprefixer: true,
     cleanCss: true,

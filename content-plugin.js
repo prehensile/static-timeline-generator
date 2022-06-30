@@ -1,8 +1,10 @@
+const path = require('path');
 const fs = require('fs');
+
 const walk = require('walkdir');
 const marked = require('marked');
-const path = require('path');
 const fm = require('front-matter');
+const moment = require('moment');
 
 
 function parseBody( tokens ){
@@ -48,7 +50,7 @@ function parseMarkdown( markdown, filepath ){
 
     if( parts.attributes.hasOwnProperty('date')){
         // it's unlikely that exact time of day will ever be important
-        entry[ 'date' ] = parts.attributes.date.toDateString();
+        entry[ 'date' ] = moment(parts.attributes.date).format("YYYY-MM-DD");
     }
 
     if( parts.attributes.hasOwnProperty('categories')){
@@ -61,22 +63,50 @@ function parseMarkdown( markdown, filepath ){
 
 
 function readMarkdownFile( filePath ){
+    console.log( `Read markdown file ${filePath}...`)
     const data = fs.readFileSync( filePath, 'utf8');
     const entry = parseMarkdown( data, filePath );
     return( entry );
 }
 
+function generateContentFile( pthContentFiles, pthOutputJson ){
 
-const entries = [];
+    const entries = [];
 
-walk.sync('./content', function(filePath, stat) {
-    if( filePath.endsWith(".md") ){
-        entries.push( 
-            readMarkdownFile( filePath )
-        );
+    walk.sync( pthContentFiles, function(filePath, stat) {
+        if( filePath.endsWith(".md") ){
+            entries.push( 
+                readMarkdownFile( filePath )
+            );
+        }
+    });
+
+    // reverse-sort entries by date
+    entries.sort( (a,b) => b.date.localeCompare(a.date) );
+
+    console.log( `Writing entries to ${pthOutputJson}...`)
+    fs.writeFileSync(
+        pthOutputJson,
+        JSON.stringify( entries, null, 4 )
+    );
+}
+
+
+module.exports = (eleventyConfig, options) => {
+    
+    const defaults = {
+        pthContentFiles : "./content",
+        pthOutputJson : "./src/_data/entries.json"
     }
-});
 
-process.stdout.write(
-    JSON.stringify( entries )
-);
+    // merge defaults with user options and extract paths
+    const { pthContentFiles, pthOutputJson } = {
+        ...defaults,
+        ...options
+    }
+
+    generateContentFile( pthContentFiles, pthOutputJson );
+
+    eleventyConfig.addWatchTarget( pthContentFiles );
+
+};
