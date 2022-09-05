@@ -1,5 +1,5 @@
 ---
-categories: [art,hacking,personal,software,amazon-echo,language,sound]
+categories: [art,hacking,personal,software,amazon-echo,language,sound,installation]
 date: 2018-02-21
 ---
 

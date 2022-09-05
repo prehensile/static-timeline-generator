@@ -1,5 +1,5 @@
 ---
-categories: [work,software,installation]
+categories: [work-work,software,web,installation]
 date: 2022-04-26
 ---
 
