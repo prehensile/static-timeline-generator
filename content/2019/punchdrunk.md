@@ -1,6 +1,6 @@
 ---
 categories: [work-work,freelance,hardware,electronics,software,installation,immersive-theatre,prototyping,research] 
-date: 2013-11-30
+date: 2019-12-15
 ---
 
 # Punchdrunk: Audience of the Future
