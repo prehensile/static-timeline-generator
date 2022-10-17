@@ -5,7 +5,7 @@ date: 2019-12-15
 
 # Punchdrunk: Audience of the Future
 
-At the end of 2019, I took a mini sabbatical from the BBC to work on a research and prototyping project for legendary immersive theatre company Punchdrunk.
+Towards the end of 2019, I took a short sabbatical from the BBC to work on a research and prototyping project for legendary immersive theatre company Punchdrunk.
 
 Our brief was to investigate possible technologies for keeping track of audience members during a show, creating little personal moments using that data, and structures for self-running game-like set-pieces. We ended up delivering a scratch show, through which an audience member's journey touched on demonstators of these technical possibilities.
 
