@@ -1,6 +1,6 @@
 ---
 categories: [iphone,creative-technologist,work-work,software,freelance,art,artistic-collaborator,language]
-date: 2010-12-16
+date: 2013-11-16
 ---
 
 # The London Bookshop Map
