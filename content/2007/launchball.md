@@ -1,5 +1,5 @@
 ---
-categories: [flash,game,work-work,creative-technologist,software,greatest-hits]
+categories: [flash,games,work-work,creative-technologist,software,greatest-hits,preloaded,science-museum]
 date: 2007-09-01
 ---
 

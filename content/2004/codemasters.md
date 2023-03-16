@@ -1,5 +1,5 @@
 ---
-categories: [flash,web,work-work]
+categories: [flash,web,work-work,games]
 date: 2004-10-01
 ---
 
