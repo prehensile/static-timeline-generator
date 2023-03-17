@@ -2,6 +2,8 @@ const pluginSass = require('eleventy-sass');
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 
+const pluginContent = require('./content-plugin');
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginContent);
   eleventyConfig.addPlugin(pluginSass, {

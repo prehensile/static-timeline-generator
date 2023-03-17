@@ -35,5 +35,8 @@
     "marked": "^4.0.17",
     "moment": "^2.29.1",
     "postcss": "^8.4.20"
+  },
+  "dependencies": {
+    "walkdir": "^0.4.1"
   }
 }
