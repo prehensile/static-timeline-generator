@@ -1,13 +1,13 @@
-const pluginSass = require('eleventy-plugin-sass');
-const pluginContent = require('./content-plugin');
+const pluginSass = require('eleventy-sass');
+const postcss = require('postcss');
+const autoprefixer = require('autoprefixer');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginContent);
   eleventyConfig.addPlugin(pluginSass, {
-    autoprefixer: true,
-    cleanCss: true,
-    watch: './src/css/*.sass',
-    outputDir: './_site/css',
+    postcss: postcss([autoprefixer]),
+    input: './src/css/*.sass',
+    output: './_site/css',
   });
   eleventyConfig.addPassthroughCopy('src/css/*.css');
   eleventyConfig.addPassthroughCopy('src/js');
