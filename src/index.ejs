@@ -30,7 +30,16 @@
               <label for="<%= filter %>"><%- utilities.sentenceCase(filter) %> </label>
             </li>
             <% }); %>
-          </ul>
+          </ul> 
+          <select>
+            <option value="all">📖Everything</option>
+            <option value="all">⭐Greatest Hits</option>
+          <optgroup label="──────────">
+            <% content.filters.forEach(function(filter){ %>
+            <option value="<%= filter %>"><%- utilities.sentenceCase(filter) %></option>
+            <% }); %>
+          </optgroup>
+          </select>
         </header>
       </div>
       <article class="timeline">
@@ -78,7 +87,13 @@
               </li>
               <% }) %>
             </ul>
-            <% } %>
+            <% } %> <% if (entry.categories) { %>
+              <p>
+                <% entry.categories.forEach(function (category) { %>
+                <a href="" target="_blank">#<%- category %></a>
+                <% }) %>
+              </p>
+              <% } %>
           </div>
         </div>
         <% }); %>
