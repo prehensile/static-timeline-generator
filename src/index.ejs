@@ -4,43 +4,23 @@
     <%- include('/head', {head: content.head}) %>
   </head>
   <body>
-    <header class="page-header">
-      <h1>
-        <pre aria-label="henry">
-            __
-           / /_  ___  ____  _______  __
-          / __ \/ _ \/ __ \/ ___/ / / /
-         / / / /  __/ / / / /  / /_/ /
-        /_/ /_/\___/_/ /_/_/   \__, /
-                              /____/
-        </pre>
-        <pre role="text" aria-label="cooke">
-                            __
-          _________  ____  / /_____
-         / ___/ __ \/ __ \/ //_/ _ \
-        / /__/ /_/ / /_/ / ,&lt; /  __/
-        \___/\____/\____/_/|_|\___/
-        </pre>
-      </h1>
-      <p>
-        Creative technologist, producer, researcher. Occasional artist and artistic collaborator. Tinkerer. Part-time futurist. Kindness enthusiast.
-      </p>
-    </header>
     <section>
-      <div class="timeline-filter-wrapper">
         <header class="timeline-filter">
-          <div class="category-wrapper">
-            <label for="category-selector">Filter:</label>
-            <select id="category-selector" multiple>
-              <option value="_all" selected>📖 Everything</option>
-              <option value="greatest-hits">⭐ Greatest Hits</option>
-              <option value="_random">🎲 Random</option>
-            <!-- <optgroup label="──────────"> -->
-              <% content.filters.forEach(function(filter){ %>
-              <option value="<%= filter %>">#<%= filter %><!-- <%- utilities.sentenceCase(filter) %>--></option>
-              <% }); %>
-            <!-- </optgroup> -->
-            </select>
+          <div class="timeline-filter-inner">
+            <h1>Henry Cooke</h1>
+            <p>Creative technologist, team lead, digital producer, researcher.</p>
+            <div class="category-wrapper">
+              <label for="category-selector">Filter:</label>
+              <select id="category-selector">
+                <option value="_all" selected>📖 Everything</option>
+                <option value="greatest-hits">⭐ Greatest Hits</option>
+                <option value="_random">🎲 Random</option>
+              <!-- <optgroup label="──────────"> -->
+                <% content.filters.forEach(function(filter){ %>
+                <option value="<%= filter %>">#<%= filter %><!-- <%- utilities.sentenceCase(filter) %>--></option>
+                <% }); %>
+              <!-- </optgroup> -->
+              </select>
           </div>
         </header>
       </div>

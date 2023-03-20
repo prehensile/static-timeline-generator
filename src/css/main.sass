@@ -8,12 +8,9 @@ body
 	width: 100%
 	height: 100%
 	background-color: $main-background
-	font-family: 'Hind Vadodara', sans-serif
-
-h1
-	font-family: 'Roboto Slab', serif
-	margin-top: 0
-	color: $title-color
+	// font-family: 'Hind Vadodara', sans-serif
+	font-family: 'IBM Plex Mono', monospace
+	color: $foreground-color
 
 a
 	text-decoration: none
@@ -136,11 +133,9 @@ header.page-header
 			color: $timestamp-color
 
 	h2
-		font-family: 'Roboto Slab', serif
+		// font-family: 'Roboto Slab', serif
 		line-height: 110%
-		margin: 5px 0
-		-webkit-margin-before: 5px
-		-webkit-margin-after: 5px
+		// margin: 5px 0
 
 		a
 			text-decoration: inherit
@@ -281,66 +276,6 @@ header.page-header
 	.timeline-entry.even .timeline-description
 		margin-left: 35px
 
-// DARK MODE
-@media (prefers-color-scheme: dark)
-	body
-		background-color: $dark-main-background
-
-	header.page-header,
-	footer.page-footer
-		background-color: $dark-header-footer-background
-
-	body,
-	h1,
-	header.page-header p,
-	footer.page-footer p,
-	.timeline-description,
-	.timeline-filter,
-	.timeline-icon i,
-	.attribution,
-	.etc
-		color: $dark-main-color
-
-	.timeline-description a,
-	.attribution a,
-	.etc a
-		color: $dark-link-color
-
-	div.etc h1
-		color: $dark-etc-header-color
-
-	.timeline-description
-		background-color: $dark-card-background
-
-	.timeline-filter-wrapper
-		background-color: $dark-filterbar-background
-
-	.timeline::before
-		background-color: $dark-timeline-line-color
-
-	.timeline-icon
-		border-color: $dark-timeline-line-color
-
-	.timeline-icon
-		@each $name, $color in $icon-colors
-			&.#{$name}
-				background-color: darken($color, 20%)
-
-	/* Arrows */
-	.no-js .timeline-entry .timeline-description::after
-		border-right-color: $dark-card-background
-
-	@media only screen and (min-width: 769px)
-		.timeline-entry.even .timeline-description::after
-			border-left-color: $dark-card-background
-
-	@media only screen and (max-width: 768px) and (min-width: 415px)
-		.timeline-entry.even .timeline-description::after
-			border-right-color: $dark-card-background
-
-	@media only screen and (min-width: 415px)
-		.timeline-entry.odd .timeline-description::after
-			border-right-color: $dark-card-background
 
 // NO JS FALLBACK
 .no-js
@@ -366,26 +301,51 @@ header.page-header
 	.timeline-description
 		width: 90%
 
-
-pre
-	// font-family: 'IBM Plex Mono', monospace
-	margin: 0
-	display: inline-block
-	vertical-align: top
-
-h1
-	font-size: 1em
-
 #category-selector
 	margin-left: 0.5em
 
-header.page-header
-	font-family: monospace
+// header.page-header,
+// h2,
+// header p
+// 	font-family: 'IBM Plex Mono', monospace
 
 header p
 	font-size: 1em
+	margin-left: auto
+	margin-right: auto
+	font-style: italic
 
-.timeline-filter-wrapper
+.timeline-filter
 	position: sticky
 	top: 0px
 	z-index: 100
+	border-bottom: 1px solid $timeline-line-color
+	background-color: $filterbar-background
+	color: $green
+
+.timeline-filter-inner
+	display: flex
+	align-items: center
+	padding: 0 20px
+
+.timeline-filter h1
+	display: inline-block
+	text-transform: uppercase
+	margin: 0.25lh 0
+
+.category-wrapper
+	margin-left: auto
+
+.timeline-description
+	line-height: normal
+
+.timeline-description h2
+	margin: 0.25lh 0 0.5lh 0
+	padding-bottom: 4px
+	border-bottom: 1px solid $title-color
+	color: $title-color
+
+
+.timeline-description .timestamp
+	font-weight: bold
+	color: $title-color

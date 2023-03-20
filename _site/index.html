@@ -9,11 +9,14 @@
 <meta name="author" content="Jane Doe" />
 
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- <link
   href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600"
   rel="stylesheet"
   type="text/css"
-/>
+/> -->
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -30,127 +33,107 @@
 
   </head>
   <body>
-    <header class="page-header">
-      <h1>
-        <pre aria-label="henry">
-            __
-           / /_  ___  ____  _______  __
-          / __ \/ _ \/ __ \/ ___/ / / /
-         / / / /  __/ / / / /  / /_/ /
-        /_/ /_/\___/_/ /_/_/   \__, /
-                              /____/
-        </pre>
-        <pre role="text" aria-label="cooke">
-                            __
-          _________  ____  / /_____
-         / ___/ __ \/ __ \/ //_/ _ \
-        / /__/ /_/ / /_/ / ,&lt; /  __/
-        \___/\____/\____/_/|_|\___/
-        </pre>
-      </h1>
-      <p>
-        Creative technologist, producer, researcher. Occasional artist and artistic collaborator. Tinkerer. Part-time futurist. Kindness enthusiast.
-      </p>
-    </header>
     <section>
-      <div class="timeline-filter-wrapper">
         <header class="timeline-filter">
-          <div class="category-wrapper">
-            <label for="category-selector">Filter:</label>
-            <select id="category-selector" multiple>
-              <option value="_all" selected>📖 Everything</option>
-              <option value="greatest-hits">⭐ Greatest Hits</option>
-              <option value="_random">🎲 Random</option>
-            <!-- <optgroup label="──────────"> -->
-              
-              <option value="agant">#agant<!-- Agant--></option>
-              
-              <option value="amazon-echo">#amazon-echo<!-- Amazon echo--></option>
-              
-              <option value="ar">#ar<!-- Ar--></option>
-              
-              <option value="art">#art<!-- Art--></option>
-              
-              <option value="artistic-collaborator">#artistic-collaborator<!-- Artistic collaborator--></option>
-              
-              <option value="audio-ar">#audio-ar<!-- Audio ar--></option>
-              
-              <option value="bbc-rd">#bbc-rd<!-- Bbc rd--></option>
-              
-              <option value="bots">#bots<!-- Bots--></option>
-              
-              <option value="creative-technologist">#creative-technologist<!-- Creative technologist--></option>
-              
-              <option value="electronics">#electronics<!-- Electronics--></option>
-              
-              <option value="elk">#elk<!-- Elk--></option>
-              
-              <option value="exhibition">#exhibition<!-- Exhibition--></option>
-              
-              <option value="faber">#faber<!-- Faber--></option>
-              
-              <option value="flash">#flash<!-- Flash--></option>
-              
-              <option value="folklore">#folklore<!-- Folklore--></option>
-              
-              <option value="freelance">#freelance<!-- Freelance--></option>
-              
-              <option value="games">#games<!-- Games--></option>
-              
-              <option value="greatest-hits">#greatest-hits<!-- Greatest hits--></option>
-              
-              <option value="hacking">#hacking<!-- Hacking--></option>
-              
-              <option value="hardware">#hardware<!-- Hardware--></option>
-              
-              <option value="immersive-theatre">#immersive-theatre<!-- Immersive theatre--></option>
-              
-              <option value="installation">#installation<!-- Installation--></option>
-              
-              <option value="iphone">#iphone<!-- Iphone--></option>
-              
-              <option value="langauge">#langauge<!-- Langauge--></option>
-              
-              <option value="language">#language<!-- Language--></option>
-              
-              <option value="machine-vision">#machine-vision<!-- Machine vision--></option>
-              
-              <option value="personal">#personal<!-- Personal--></option>
-              
-              <option value="preloaded">#preloaded<!-- Preloaded--></option>
-              
-              <option value="print">#print<!-- Print--></option>
-              
-              <option value="product">#product<!-- Product--></option>
-              
-              <option value="prototype">#prototype<!-- Prototype--></option>
-              
-              <option value="prototyping">#prototyping<!-- Prototyping--></option>
-              
-              <option value="research">#research<!-- Research--></option>
-              
-              <option value="science-museum">#science-museum<!-- Science museum--></option>
-              
-              <option value="service">#service<!-- Service--></option>
-              
-              <option value="software">#software<!-- Software--></option>
-              
-              <option value="sound">#sound<!-- Sound--></option>
-              
-              <option value="stories">#stories<!-- Stories--></option>
-              
-              <option value="talks">#talks<!-- Talks--></option>
-              
-              <option value="voice">#voice<!-- Voice--></option>
-              
-              <option value="vui">#vui<!-- Vui--></option>
-              
-              <option value="web">#web<!-- Web--></option>
-              
-              <option value="work-work">#work-work<!-- Work work--></option>
-              
-            <!-- </optgroup> -->
-            </select>
+          <div class="timeline-filter-inner">
+            <h1>Henry Cooke</h1>
+            <p>Creative technologist, team lead, digital producer, researcher.</p>
+            <div class="category-wrapper">
+              <label for="category-selector">Filter:</label>
+              <select id="category-selector">
+                <option value="_all" selected>📖 Everything</option>
+                <option value="greatest-hits">⭐ Greatest Hits</option>
+                <option value="_random">🎲 Random</option>
+              <!-- <optgroup label="──────────"> -->
+                
+                <option value="agant">#agant<!-- Agant--></option>
+                
+                <option value="amazon-echo">#amazon-echo<!-- Amazon echo--></option>
+                
+                <option value="ar">#ar<!-- Ar--></option>
+                
+                <option value="art">#art<!-- Art--></option>
+                
+                <option value="artistic-collaborator">#artistic-collaborator<!-- Artistic collaborator--></option>
+                
+                <option value="audio-ar">#audio-ar<!-- Audio ar--></option>
+                
+                <option value="bbc-rd">#bbc-rd<!-- Bbc rd--></option>
+                
+                <option value="bots">#bots<!-- Bots--></option>
+                
+                <option value="creative-technologist">#creative-technologist<!-- Creative technologist--></option>
+                
+                <option value="electronics">#electronics<!-- Electronics--></option>
+                
+                <option value="elk">#elk<!-- Elk--></option>
+                
+                <option value="exhibition">#exhibition<!-- Exhibition--></option>
+                
+                <option value="faber">#faber<!-- Faber--></option>
+                
+                <option value="flash">#flash<!-- Flash--></option>
+                
+                <option value="folklore">#folklore<!-- Folklore--></option>
+                
+                <option value="freelance">#freelance<!-- Freelance--></option>
+                
+                <option value="games">#games<!-- Games--></option>
+                
+                <option value="greatest-hits">#greatest-hits<!-- Greatest hits--></option>
+                
+                <option value="hacking">#hacking<!-- Hacking--></option>
+                
+                <option value="hardware">#hardware<!-- Hardware--></option>
+                
+                <option value="immersive-theatre">#immersive-theatre<!-- Immersive theatre--></option>
+                
+                <option value="installation">#installation<!-- Installation--></option>
+                
+                <option value="iphone">#iphone<!-- Iphone--></option>
+                
+                <option value="langauge">#langauge<!-- Langauge--></option>
+                
+                <option value="language">#language<!-- Language--></option>
+                
+                <option value="machine-vision">#machine-vision<!-- Machine vision--></option>
+                
+                <option value="personal">#personal<!-- Personal--></option>
+                
+                <option value="preloaded">#preloaded<!-- Preloaded--></option>
+                
+                <option value="print">#print<!-- Print--></option>
+                
+                <option value="product">#product<!-- Product--></option>
+                
+                <option value="prototype">#prototype<!-- Prototype--></option>
+                
+                <option value="prototyping">#prototyping<!-- Prototyping--></option>
+                
+                <option value="research">#research<!-- Research--></option>
+                
+                <option value="science-museum">#science-museum<!-- Science museum--></option>
+                
+                <option value="service">#service<!-- Service--></option>
+                
+                <option value="software">#software<!-- Software--></option>
+                
+                <option value="sound">#sound<!-- Sound--></option>
+                
+                <option value="stories">#stories<!-- Stories--></option>
+                
+                <option value="talks">#talks<!-- Talks--></option>
+                
+                <option value="voice">#voice<!-- Voice--></option>
+                
+                <option value="vui">#vui<!-- Vui--></option>
+                
+                <option value="web">#web<!-- Web--></option>
+                
+                <option value="work-work">#work-work<!-- Work work--></option>
+                
+              <!-- </optgroup> -->
+              </select>
           </div>
         </header>
       </div>
