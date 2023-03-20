@@ -46,7 +46,8 @@
               <a id="<%= entry.id %>" href="#<%= entry.id %>"><i class="fas fa-link"></i></a><%-
               entry.title %>
             </h2>
-            <% if (entry.image) { %>
+            <img src="/img/content/emf22.jpg">
+            <!-- <% if (entry.image) { %>
             <div class="captioned-image image-right">
               <% if (entry.image.link) { %><a href="<%= entry.image.link %>"
                 ><% } %>
@@ -56,7 +57,8 @@
               <span class="caption"><%- entry.image.caption %></span>
               <% } %>
             </div>
-            <% } %> <% if (!utilities.isWrappedInParagraphTags(entry.body)) { %>
+            <% } %> -->
+            <% if (!utilities.isWrappedInParagraphTags(entry.body)) { %>
             <p>
               <% } %> <%- entry.body %> <% if (!utilities.isWrappedInParagraphTags(entry.body)) { %>
             </p>
