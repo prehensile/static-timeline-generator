@@ -23,6 +23,19 @@ function hideUnchecked() {
     activeFilters.push(filter.id);
   });
 
+  updateTimelineForFilters( activeFilters );
+
+}
+
+function showAllEntries(){
+  document.querySelectorAll('.timeline-entry').forEach((entry)=>{
+    show(entry);
+  });
+  reflowEntries();
+}
+
+function updateTimelineForFilters( activeFilters ){
+
   var entries = document.getElementsByClassName('timeline-entry');
   for (var i = 0; i < entries.length; i++) {
     var entry = entries[i];
@@ -41,6 +54,7 @@ function hideUnchecked() {
 
   reflowEntries();
 }
+
 
 function checkAll() {
   var checkboxes = document.querySelectorAll('input[type="checkbox"][name="filter"]');
@@ -76,16 +90,42 @@ function reflowEntries() {
   }
 }
 
+
+function onCategorySelectorChange(){
+  
+  const selectedValues = Array.from(
+    document.querySelector('#category-selector').selectedOptions
+  ).map(({ value }) => value);
+
+  if( selectedValues.includes("_all") ){
+    showAllEntries();
+  } else {
+    updateTimelineForFilters( selectedValues );
+  }
+}
+
+function onCategoryLinkClick( e ){
+  const category = e.target.dataset.category;
+  // TODO: select option in filter dropdown
+  updateTimelineForFilters([category]);
+  return false;
+}
+
 function onload() {
   /* We have JS! */
   var root = document.documentElement;
   root.classList.remove('no-js');
 
   /* Listen for filter changes */
-  document.querySelectorAll('input[type="checkbox"][name="filter"]').forEach(function (box) {
-    box.addEventListener('click', hideUnchecked);
+  // document.querySelectorAll('input[type="checkbox"][name="filter"]').forEach(function (box) {
+  //   box.addEventListener('click', hideUnchecked);
+  // });
+  // document.querySelector('input[type="checkbox"]#all').addEventListener('click', checkAll);
+
+  document.querySelector('#category-selector').addEventListener('change', onCategorySelectorChange);
+  document.querySelectorAll('.category-link').forEach((a)=>{
+    a.addEventListener('click', onCategoryLinkClick);
   });
-  document.querySelector('input[type="checkbox"]#all').addEventListener('click', checkAll);
 
   /* Flow entries */
   reflowEntries();

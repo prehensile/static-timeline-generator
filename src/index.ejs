@@ -4,42 +4,44 @@
     <%- include('/head', {head: content.head}) %>
   </head>
   <body>
-    <% if (content.header) { %>
     <header class="page-header">
-      <% if (!utilities.isWrappedInParagraphTags(content.header)) { %>
+      <h1>
+        <pre aria-label="henry">
+            __
+           / /_  ___  ____  _______  __
+          / __ \/ _ \/ __ \/ ___/ / / /
+         / / / /  __/ / / / /  / /_/ /
+        /_/ /_/\___/_/ /_/_/   \__, /
+                              /____/
+        </pre>
+        <pre role="text" aria-label="cooke">
+                            __
+          _________  ____  / /_____
+         / ___/ __ \/ __ \/ //_/ _ \
+        / /__/ /_/ / /_/ / ,&lt; /  __/
+        \___/\____/\____/_/|_|\___/
+        </pre>
+      </h1>
       <p>
-        <% } %> <%- content.header %> <% if (!utilities.isWrappedInParagraphTags(content.header)) {
-        %>
+        Creative technologist, producer, researcher. Occasional artist and artistic collaborator. Tinkerer. Part-time futurist. Kindness enthusiast.
       </p>
-
-      <p><% } %></p>
     </header>
-
-    <% } %>
     <section>
       <div class="timeline-filter-wrapper">
         <header class="timeline-filter">
-          <ul>
-            <li>
-              <input type="checkbox" name="filter-shortcut" id="all" checked />
-              <label for="all">All</label>
-            </li>
-            <% content.filters.forEach(function(filter){ %>
-            <li>
-              <input type="checkbox" name="filter" id="<%= filter %>" checked />
-              <label for="<%= filter %>"><%- utilities.sentenceCase(filter) %> </label>
-            </li>
-            <% }); %>
-          </ul> 
-          <select>
-            <option value="all">📖Everything</option>
-            <option value="all">⭐Greatest Hits</option>
-          <optgroup label="──────────">
-            <% content.filters.forEach(function(filter){ %>
-            <option value="<%= filter %>"><%- utilities.sentenceCase(filter) %></option>
-            <% }); %>
-          </optgroup>
-          </select>
+          <div class="category-wrapper">
+            <label for="category-selector">Filter:</label>
+            <select id="category-selector" multiple>
+              <option value="_all" selected>📖 Everything</option>
+              <option value="greatest-hits">⭐ Greatest Hits</option>
+              <option value="_random">🎲 Random</option>
+            <!-- <optgroup label="──────────"> -->
+              <% content.filters.forEach(function(filter){ %>
+              <option value="<%= filter %>">#<%= filter %><!-- <%- utilities.sentenceCase(filter) %>--></option>
+              <% }); %>
+            <!-- </optgroup> -->
+            </select>
+          </div>
         </header>
       </div>
       <article class="timeline">
@@ -90,7 +92,7 @@
             <% } %> <% if (entry.categories) { %>
               <p>
                 <% entry.categories.forEach(function (category) { %>
-                <a href="" target="_blank">#<%- category %></a>
+                <a href="#" class="category-link" data-category="<%- category %>">#<%- category %></a>
                 <% }) %>
               </p>
               <% } %>

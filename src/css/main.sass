@@ -26,6 +26,8 @@ a
 header.page-header,
 footer.page-footer
 	background-color: $header-footer-background
+
+footer.page-footer
 	padding: 50px 0
 	text-align: center
 
@@ -62,13 +64,19 @@ footer.page-footer
 			display: inline
 			padding-right: 20px
 
-.timeline
+.category-wrapper
+	display: block
+	font-weight: bold
+
+.timeline,
+header.page-header
 	position: relative
 	width: 90%
 	max-width: 1600px
 	margin: 0px auto
-	padding: 20px 0 100px 0
 
+.timeline
+	padding: 20px 0 100px 0
 	&::before
 		content: ''
 		position: absolute
@@ -357,3 +365,27 @@ footer.page-footer
 
 	.timeline-description
 		width: 90%
+
+
+pre
+	// font-family: 'IBM Plex Mono', monospace
+	margin: 0
+	display: inline-block
+	vertical-align: top
+
+h1
+	font-size: 1em
+
+#category-selector
+	margin-left: 0.5em
+
+header.page-header
+	font-family: monospace
+
+header p
+	font-size: 1em
+
+.timeline-filter-wrapper
+	position: sticky
+	top: 0px
+	z-index: 100
