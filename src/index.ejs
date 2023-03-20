@@ -15,11 +15,11 @@
                 <option value="_all" selected>📖 Everything</option>
                 <option value="greatest-hits">⭐ Greatest Hits</option>
                 <option value="_random">🎲 Random</option>
-              <!-- <optgroup label="──────────"> -->
+              <optgroup label="──────────">
                 <% content.filters.forEach(function(filter){ %>
                 <option value="<%= filter %>">#<%= filter %><!-- <%- utilities.sentenceCase(filter) %>--></option>
                 <% }); %>
-              <!-- </optgroup> -->
+              </optgroup>
               </select>
           </div>
         </header>
@@ -46,7 +46,7 @@
               <a id="<%= entry.id %>" href="#<%= entry.id %>"><i class="fas fa-link"></i></a><%-
               entry.title %>
             </h2>
-            <img src="/img/content/emf22.jpg">
+            <img src="img/content/emf22.jpg">
             <!-- <% if (entry.image) { %>
             <div class="captioned-image image-right">
               <% if (entry.image.link) { %><a href="<%= entry.image.link %>"
