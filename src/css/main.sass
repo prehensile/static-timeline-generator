@@ -253,6 +253,13 @@ header.page-header
 
 	.timeline-description
 		width: 90%
+	
+	.timeline-filter p,
+	.category-wrapper label
+		display: none
+	
+	.category-wrapper
+		margin-left: auto !important
 
 @media only screen and (max-width: 414px)
 	.timeline-description img,
@@ -300,21 +307,7 @@ header.page-header
 
 	.timeline-description
 		width: 90%
-
-#category-selector
-	margin-left: 0.5em
-
-// header.page-header,
-// h2,
-// header p
-// 	font-family: 'IBM Plex Mono', monospace
-
-header p
-	font-size: 1em
-	margin-left: auto
-	margin-right: auto
-	font-style: italic
-
+	
 .timeline-filter
 	position: sticky
 	top: 0px
@@ -331,10 +324,19 @@ header p
 .timeline-filter h1
 	display: inline-block
 	text-transform: uppercase
-	margin: 0.25lh 0
+	margin: 0.25lh 20px 0.25lh 0
+
+.timeline-filter p
+	font-size: 1em
+	margin-left: auto
+	margin-right: auto
+	font-style: italic
 
 .category-wrapper
-	// margin-left: auto
+	margin-left: 20px
+
+.category-wrapper p
+	margin-right: 0.5em
 
 .timeline-description
 	line-height: normal
@@ -344,7 +346,6 @@ header p
 	padding-bottom: 4px
 	border-bottom: 1px solid $title-color
 	color: $title-color
-
 
 .timeline-description .timestamp
 	font-weight: bold
