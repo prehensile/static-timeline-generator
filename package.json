@@ -37,6 +37,7 @@
     "postcss": "^8.4.20"
   },
   "dependencies": {
+    "chokidar": "^3.5.3",
     "walkdir": "^0.4.1"
   }
 }

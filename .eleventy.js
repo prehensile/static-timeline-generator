@@ -3,9 +3,11 @@ const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 
 const pluginContent = require('./plugins/content');
+// const pluginImages = require('./plugins/images');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginContent);
+  // eleventyConfig.addPlugin(pluginImages);
   eleventyConfig.addPlugin(pluginSass, {
     postcss: postcss([autoprefixer]),
     input: './src/css/*.sass',

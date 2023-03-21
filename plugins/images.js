@@ -1,6 +1,7 @@
 const walk = require('walkdir');
+const chokidar = require('chokidar');
 const { exec } = require("child_process");
-
+const fs = require('fs');
 
 function run( command ){
     console.log( command )
@@ -17,6 +18,20 @@ function run( command ){
     });
 }
 
+function processFile( filePath ){
+    let command = null;
+    console.log( filePath );
+    if( filePath.endsWith(".jpg") ){
+        command = `mogrify -quality 75 -resize 1280 ${filePath}`;
+    } else if ( filePath.endsWith(".png") ){
+        command = `mogrify -resize 1280 ${filePath}`;
+    }
+    if( command ){
+        run( command );
+    }
+}
+
+
 module.exports = (eleventyConfig, options) => {
     
     const defaults = {
@@ -30,17 +45,13 @@ module.exports = (eleventyConfig, options) => {
         ...options
     }
 
-    walk.sync( pthImageFiles, function(filePath, stat) {
-        let command = null;
-        console.log( filePath );
-        if( filePath.endsWith(".jpg") ){
-           command = `mogrify -quality 75 -resize 1280 ${filePath}`;
-        } else if ( filePath.endsWith(".png") ){
-            command = `mogrify -resize 1280 ${filePath}`;
-        }
-        if( command ){
-            run( command );
-        }
+    // walk.sync( pthImageFiles, function(filePath, stat) {
+    //     processFile( filePath );
+    // });
+
+   // One-liner for current directory
+    chokidar.watch( pthImageFiles ).on('all', (event, path) => {
+        console.log(event, path);
     });
 
 };
