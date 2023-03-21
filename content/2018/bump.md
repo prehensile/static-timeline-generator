@@ -1,6 +1,6 @@
 ---
 categories: [talks,folklore,stories]
-date: 2016-09-01
+date: 2018-09-01
 ---
 
 # Electromagnetic Field 2018

@@ -32,6 +32,9 @@ function parseBody( tokens ){
     return [body, links];
 }
 
+
+const imageExtensions = [ ".png", ".jpg" ];
+
 function parseMarkdown( markdown, filepath ){
 
     const parts = fm( markdown );
@@ -41,8 +44,11 @@ function parseMarkdown( markdown, filepath ){
     let body, links;
     [body,links] = parseBody( tokens );
 
+    let id = path.basename( filepath );
+    id = id.substring(0, id.lastIndexOf("."));
+
     const entry = {
-        "id" : path.basename( filepath ),
+        "id" : id,
         "title": tokens[0].text,
         "body" : body,
         "links" : links
@@ -56,6 +62,15 @@ function parseMarkdown( markdown, filepath ){
     if( parts.attributes.hasOwnProperty('categories')){
         // it's unlikely that exact time of day will ever be important
         entry[ 'categories' ] = parts.attributes.categories;
+    }
+
+    for( const ext of imageExtensions ){
+        const imagePath = filepath.replace( '.md', ext );
+        if( fs.existsSync(imagePath) ){
+            entry[ 'image' ] = {
+                src : path.basename(imagePath)
+            }
+        }
     }
 
     return( entry );

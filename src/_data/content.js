@@ -5,9 +5,9 @@ const footer = 'A footer goes here.';
 const entries = JSON.parse( fs.readFileSync("./src/_data/entries.json") );
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'Henry Cooke - Timeline'; // The title of the page that shows in the browser tab
+const pageDescription = 'A timeline of my selected career highlights since 2004.'; // The description of the page for search engines
+const pageAuthor = 'Henry Cooke'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {
