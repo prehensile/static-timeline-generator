@@ -551,7 +551,8 @@
             "electronics",
             "software",
             "installation",
-            "elk"
+            "elk",
+            "job"
         ],
         "image": {
             "src": "elk.png"
@@ -638,7 +639,8 @@
             "bots",
             "web",
             "language",
-            "greatest-hits"
+            "greatest-hits",
+            "job"
         ],
         "image": {
             "src": "philter.jpg"
@@ -667,7 +669,7 @@
     {
         "id": "tucker",
         "title": "Malcolm Tucker: The Missing Phone",
-        "body": "<p>While I was working with Agant, we were approached by Faber &amp; Faber with a brief to create an iPhone version of a book they had coming out based on <em>The Thick of It</em>. They didn&#39;t just want a simple ebook - they wanted something that would use the affordances of the device to make something that felt native to the phone.</p>\n<p>The concept of the book was that one of the show&#39;s main characters, Malcolm Tucker, had left a folder full of sensitive documents on a train. The book was the illict contents of this folder.</p>\n<p>After a few phone calls thinking about how to approach the brief, I came up with the idea of translating the concept of the book to something that would make sense on an iPhone. If the book simulated the experience of finding a folder full of paper documents, maybe the app should simulate the experience of finding Malcolm&#39;s phone?</p>\n<p>It was one of those beautiful ideas which completely unlocks a project. From there, the rest of the design just flowed. We reformatted material from the book into emails, text messages and file attachments. Members of the cast recorded new material as voicemails, and then we added our crowning achievement - a story engine which, when triggered, would play out the storyline of Malcolm trying to get his phone back over a couple of days of the user&#39;s real time, using notifications to send new voicemails, emails and messages.</p>\n<p>The app was wildly successful - people loved the feel of rifling through a fictional character&#39;s phone, and the experience of living through a realtime, personal story. We had loads of great reviews, and in 2011 it became the first app to be nominated for a TV BAFTA.</p>\n<p>I was sole developer on the project and led its creative development.</p>\n",
+        "body": "<p>While I was working with app development company Agant, we were approached by Faber &amp; Faber with a brief to create an iPhone version of a book they had coming out based on <em>The Thick of It</em>. They didn&#39;t just want a simple ebook - they wanted something that would use the affordances of the device to make something that felt native to the phone.</p>\n<p>The concept of the book was that one of the show&#39;s main characters, Malcolm Tucker, had left a folder full of sensitive documents on a train. The book was the illict contents of this folder.</p>\n<p>After a few phone calls thinking about how to approach the brief, I came up with the idea of translating the concept of the book to something that would make sense on an iPhone. If the book simulated the experience of finding a folder full of paper documents, maybe the app should simulate the experience of finding Malcolm&#39;s phone?</p>\n<p>It was one of those beautiful ideas which completely unlocks a project. From there, the rest of the design just flowed. We reformatted material from the book into emails, text messages and file attachments. Members of the cast recorded new material as voicemails, and then we added our crowning achievement - a story engine which, when triggered, would play out the storyline of Malcolm trying to get his phone back over a couple of days of the user&#39;s real time, using notifications to send new voicemails, emails and messages.</p>\n<p>The app was wildly successful - people loved the feel of rifling through a fictional character&#39;s phone, and the experience of living through a realtime, personal story. We had loads of great reviews, and in 2011 it became the first app to be nominated for a TV BAFTA.</p>\n<p>I was sole developer on the project and led its creative development.</p>\n",
         "links": [
             {
                 "href": "https://web.archive.org/web/20160309171359/http://www.agant.com/app.php?appID=ttoi",

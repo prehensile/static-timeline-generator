@@ -5,7 +5,7 @@ date: 2010-12-16
 
 # Malcolm Tucker: The Missing Phone
 
-While I was working with Agant, we were approached by Faber & Faber with a brief to create an iPhone version of a book they had coming out based on _The Thick of It_. They didn't just want a simple ebook - they wanted something that would use the affordances of the device to make something that felt native to the phone.
+While I was working with app development company Agant, we were approached by Faber & Faber with a brief to create an iPhone version of a book they had coming out based on _The Thick of It_. They didn't just want a simple ebook - they wanted something that would use the affordances of the device to make something that felt native to the phone.
 
 The concept of the book was that one of the show's main characters, Malcolm Tucker, had left a folder full of sensitive documents on a train. The book was the illict contents of this folder.
 
