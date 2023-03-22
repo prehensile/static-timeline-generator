@@ -1,5 +1,15 @@
 [
     {
+        "id": "welcome",
+        "title": "<p>Welcome</p>\n",
+        "body": "<p>This is a timeline of selected projects, jobs, and other things I&#39;ve made with computers <a href=\"#codemasters\">since 2000</a>. It&#39;s intended to give you an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>You can download my CV <a href=\"/cv\">here</a> and there&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
+        "links": [],
+        "date": "2023-03-22",
+        "categories": [
+            "introduction"
+        ]
+    },
+    {
         "id": "emf22",
         "title": "<p>Electromagnetic Field 2022</p>\n",
         "body": "<p>I was Team Lead for Art &amp; Installations at EMF2022. Responsibilities included running and recruiting to the team, artist scouting and outreach, coordinating an Arts Council funding bid, curation, artist comms, and helping to set up and maintain installations and look after the artists during the festival.</p>\n",
@@ -711,7 +721,10 @@
             "greatest-hits",
             "preloaded",
             "science-museum"
-        ]
+        ],
+        "image": {
+            "src": "launchball.jpg"
+        }
     },
     {
         "id": "tonic",
@@ -736,7 +749,7 @@
                 "linkText": "Codemasters"
             }
         ],
-        "date": "2004-10-01",
+        "date": "2000-08-01",
         "categories": [
             "flash",
             "web",

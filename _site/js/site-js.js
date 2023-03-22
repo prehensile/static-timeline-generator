@@ -23,7 +23,7 @@ function hideUnchecked() {
     activeFilters.push(filter.id);
   });
 
-  updateTimelineForFilters( activeFilters );
+  updatePageForFilters( activeFilters );
 
 }
 
@@ -34,7 +34,15 @@ function showAllEntries(){
   reflowEntries();
 }
 
-function updateTimelineForFilters( activeFilters ){
+function scrollToTop(){
+  window.scrollTo({
+    top: 0,
+    // left: window.scrollX,
+    behavior: "smooth",
+  });
+}
+
+function updatePageForFilters( activeFilters ){
 
   var entries = document.getElementsByClassName('timeline-entry');
   for (var i = 0; i < entries.length; i++) {
@@ -53,6 +61,7 @@ function updateTimelineForFilters( activeFilters ){
   }
 
   reflowEntries();
+  scrollToTop();
 }
 
 
@@ -100,15 +109,20 @@ function onCategorySelectorChange(){
   if( selectedValues.includes("_all") ){
     showAllEntries();
   } else {
-    updateTimelineForFilters( selectedValues );
+    updatePageForFilters( selectedValues );
   }
 }
 
 function onCategoryLinkClick( e ){
   const category = e.target.dataset.category;
-  // TODO: select option in filter dropdown
-  updateTimelineForFilters([category]);
+  // select option in filter dropdown
+  document.querySelector('#category-selector').value = category;
+  updatePageForFilters([category]);
   return false;
+}
+
+function onHeaderClick(){
+  scrollToTop();
 }
 
 function onload() {
@@ -117,15 +131,12 @@ function onload() {
   root.classList.remove('no-js');
 
   /* Listen for filter changes */
-  // document.querySelectorAll('input[type="checkbox"][name="filter"]').forEach(function (box) {
-  //   box.addEventListener('click', hideUnchecked);
-  // });
-  // document.querySelector('input[type="checkbox"]#all').addEventListener('click', checkAll);
-
   document.querySelector('#category-selector').addEventListener('change', onCategorySelectorChange);
   document.querySelectorAll('.category-link').forEach((a)=>{
     a.addEventListener('click', onCategoryLinkClick);
   });
+
+  document.querySelector('.timeline-filter-inner p').addEventListener('click', onHeaderClick);
 
   /* Flow entries */
   reflowEntries();

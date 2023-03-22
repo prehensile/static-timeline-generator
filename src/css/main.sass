@@ -25,15 +25,17 @@ footer.page-footer
 	background-color: $header-footer-background
 
 footer.page-footer
-	padding: 50px 0
+	// padding: 50px 0
 	text-align: center
+	border-top: 1px $foreground-color solid
 
 	p
-		width: 80%
-		max-width: 1400px
-		line-height: 120%
-		color: #eee
-		margin: 0px auto 10px auto
+		// width: 80%
+		// max-width: 1400px
+		// line-height: 120%
+		color: $foreground-color
+		// margin: 0px auto 10px auto
+		margin: 0
 
 	a
 		color: $header-footer-link-color
@@ -41,13 +43,9 @@ footer.page-footer
 footer.page-footer
 	padding: 10px 0
 
-.timeline-filter-wrapper
-	background-color: $filterbar-background
-	padding: 10px 0
-
 .timeline-filter
-	width: 90%
-	max-width: 1600px
+	// width: 90%
+	// max-width: 1600px
 	margin: 0px auto
 
 	ul
@@ -66,7 +64,8 @@ footer.page-footer
 	font-weight: bold
 
 .timeline,
-header.page-header
+header.page-header,
+.timeline-filter-inner
 	position: relative
 	width: 90%
 	max-width: 1600px
@@ -289,7 +288,7 @@ header.page-header
 	.timeline::before, .timeline-icon
 		left: 0
 
-	.timeline-filter-wrapper
+	.category-wrapper
 		display: none
 
 	.timeline-entry
@@ -314,17 +313,17 @@ header.page-header
 	z-index: 100
 	border-bottom: 1px solid $timeline-line-color
 	background-color: $filterbar-background
-	color: $vs-green
+	color: $filterbar-foreground
 
 .timeline-filter-inner
 	display: flex
 	align-items: center
-	padding: 0 20px
+	// padding: 0 20px
 
 .timeline-filter h1
 	display: inline-block
 	text-transform: uppercase
-	margin: 0.25lh 20px 0.25lh 0
+	margin: 0.25lh 20px 0.25lh 20px
 
 .timeline-filter p
 	font-size: 1em
@@ -333,7 +332,7 @@ header.page-header
 	font-style: italic
 
 .category-wrapper
-	margin-left: 20px
+	margin: 0 20px
 
 .category-wrapper p
 	margin-right: 0.5em
@@ -361,10 +360,6 @@ header.page-header
 	// background-color: $timeline-icon-color
 	background-color: $title-color
 
-
-$color-talks: $magenta
-$color-jobs: $yellow
-
 .category-talk
 	h2, .timestamp, .entry-link, .time
 		color: $color-talks
@@ -382,3 +377,15 @@ a.category-talk
 		background-color: $color-jobs
 a.category-job
 	color: $color-jobs
+
+.category-intro
+	a, h2, .timestamp, .entry-link
+		color: $color-intro
+		border-bottom-color: $color-intro
+	.timeline-icon
+		background-color: $color-intro
+a.category-intro
+	color: $color-intro
+
+footer p
+	display: inline-block

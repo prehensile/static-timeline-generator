@@ -6,3 +6,6 @@
 []  Work out which tags dictate colour coding (which are top-level categories)
     - Project / Job / Publication / Talk / etc
 [*]  Implement color coding
+[]  Filter dropdown should update when user clicks a category link
+[]  crop images
+[]  Add intro panel

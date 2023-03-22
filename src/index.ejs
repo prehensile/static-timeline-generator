@@ -1,7 +1,9 @@
 <%
 const _categoryClasses = {
   "job" : "category-job",
-  "talks" : "category-talk"
+  "talks" : "category-talk",
+  "publications" : "category-publications",
+  "introduction" : "category-intro"
 }
 classForCategory = function( cat ){
   if( _categoryClasses.hasOwnProperty(cat) ){
@@ -35,9 +37,14 @@ classForCategories = function(categories) {
                 <option value="_all" selected>📖 Everything</option>
                 <option value="greatest-hits">⭐ Greatest Hits</option>
                 <option value="_random">🎲 Random</option>
+                <option value="divider" disabled>──────────</option>
+                <% for(const cat in _categoryClasses){ %>
+                  <option class="<%= _categoryClasses[cat] %>" value="<%= cat %>"><%= cat  %></option>
+                  <% }; %>
+                  <option value="divider" disabled>──────────</option>
               <!-- <optgroup label="──────────"> -->
                 <% content.filters.forEach(function(filter){ %>
-                <option value="<%= filter %>">#<%= filter %><!-- <%- utilities.sentenceCase(filter) %>--></option>
+                <option value="<%= filter %>"><%= filter %></option>
                 <% }); %>
               <!-- </optgroup> -->
               </select>
@@ -115,7 +122,7 @@ classForCategories = function(categories) {
       </p>
       <% } %>
       <p>
-        Built with Molly White's
+        Based on Molly White's
         <a href="https://github.com/molly/static-timeline-generator" target="_blank"
           >static timeline generator</a
         >.
