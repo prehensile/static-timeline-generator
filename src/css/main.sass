@@ -357,12 +357,20 @@ header.page-header
 .timeline
 	overflow: hidden
 
+
+$color-talks: $magenta
+$color-jobs: $yellow
+
 .category-talk
-	h2, .timestamp, a
-		color: $orange
-		border-bottom-color: $orange
+	h2, .timestamp, .entry-link
+		color: $color-talks
+		border-bottom-color: $color-talks
+a.category-talk
+	color: $color-talks
 
 .category-job
-	h2, .timestamp, a
-		color: $yellow
-		border-bottom-color: $yellow
+	h2, .timestamp, .entry-link
+		color: $color-jobs
+		border-bottom-color: $color-jobs
+a.category-job
+	color: $color-jobs

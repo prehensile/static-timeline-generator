@@ -3,13 +3,16 @@ const _categoryClasses = {
   "job" : "category-job",
   "talks" : "category-talk"
 }
+classForCategory = function( cat ){
+  if( _categoryClasses.hasOwnProperty(cat) ){
+    return(_categoryClasses[ cat ]);
+  }
+}
 classForCategories = function(categories) {
   //console.log( categories );
   for(const cat of categories){
-    //console.log( cat );
-    if( _categoryClasses.hasOwnProperty(cat) ){
-      return(_categoryClasses[ cat ]);
-    }
+    const klass = classForCategory( cat );
+    if( klass ) return klass;
   }
   return ""
 }
@@ -85,7 +88,7 @@ classForCategories = function(categories) {
             <ul>
               <% entry.links.forEach(function (link) { %>
               <li>
-                <a href="<%= link.href %>" target="_blank"><%- link.linkText %></a><%-
+                <a class="entry-link" href="<%= link.href %>" target="_blank"><%- link.linkText %></a><%-
                 link.extraText %>
               </li>
               <% }) %>
@@ -93,7 +96,7 @@ classForCategories = function(categories) {
             <% } %> <% if (entry.categories) { %>
               <p>
                 <% entry.categories.forEach(function (category) { %>
-                <a href="#" class="category-link" data-category="<%- category %>">#<%- category %></a>
+                <a href="#" class="category-link <%= classForCategory(category) %>" data-category="<%- category %>">#<%- category %></a>
                 <% }) %>
               </p>
               <% } %>
