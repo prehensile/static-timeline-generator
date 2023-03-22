@@ -1,7 +1,7 @@
 [
     {
         "id": "emf22",
-        "title": "Electromagnetic Field 2022",
+        "title": "<p>Electromagnetic Field 2022</p>\n",
         "body": "<p>I was Team Lead for Art &amp; Installations at EMF2022. Responsibilities included running and recruiting to the team, artist scouting and outreach, coordinating an Arts Council funding bid, curation, artist comms, and helping to set up and maintain installations and look after the artists during the festival.</p>\n",
         "links": [
             {
@@ -21,7 +21,7 @@
     },
     {
         "id": "mozcafe",
-        "title": "Ethical Dilemma Cafe",
+        "title": "<p>Ethical Dilemma Cafe</p>\n",
         "body": "<p>A physical event in Manchester for MozFest 2022. I designed and built a satirical loyalty scheme for the cafe - vistors can sign up on their phone for free drinks during the event (using a social media account, naturally). There&#39;s a catch though - the system asks a personal question in exchange for the drinks, and the questions get more probing with each successive drink...</p>\n",
         "links": [
             {
@@ -43,7 +43,7 @@
     },
     {
         "id": "computers",
-        "title": "Crystal Bennes, _When Computers Were Women_",
+        "title": "<p>Crystal Bennes, <em>When Computers Were Women</em></p>\n",
         "body": "<p><em>four hand-woven Jacquard wall hangings made of recycled cotton, organic cotton and lambswool, 70cm x 300cm each</em></p>\n<p>When Computers Were Women is a project connected to feminist critiques of physics, and stems from an invited residency at CERN (the European Organisation for Nuclear Research) in 2018.</p>\n<p>I helped Crystal ingest punch card data from photos she&#39;d taken at CERN and translate that data into a format that could be read by software driving the modern weaving machines.</p>\n",
         "links": [
             {
@@ -66,7 +66,7 @@
     },
     {
         "id": "singing",
-        "title": "Singing Machines prototype",
+        "title": "<p>Singing Machines prototype</p>\n",
         "body": "<p>A lockdown project - a physical sketch for an audio device which listens for others like it in its vicinity. If it hears any, it &#39;sings&#39; back to them.</p>\n",
         "links": [
             {
@@ -87,7 +87,7 @@
     },
     {
         "id": "nigel",
-        "title": "Looking for Nigel",
+        "title": "<p>Looking for Nigel</p>\n",
         "body": "<p>An interactive story for Bose&#39;s AR audio sunglasses. We worked with theatre makers and an artist, writer and placemaker to create a spatial audio story which plays out as a series of waypoints dropped into a nearby park when the app is opened.</p>\n<p>I created some early experience prototypes and designed and led the project.</p>\n",
         "links": [
             {
@@ -110,7 +110,7 @@
     },
     {
         "id": "punchdrunk",
-        "title": "Punchdrunk: Audience of the Future",
+        "title": "<p>Punchdrunk: Audience of the Future</p>\n",
         "body": "<p>Towards the end of 2019, I took a short sabbatical from the BBC to work on a research and prototyping project for legendary immersive theatre company Punchdrunk.</p>\n<p>Our brief was to investigate possible technologies for keeping track of audience members during a show, creating little personal moments using that data, and structures for self-running game-like set-pieces. We ended up delivering a scratch show, through which an audience member&#39;s journey touched on demonstators of these technical possibilities.</p>\n<p>I was technical lead on the project and recruited a team of specialists to work on various aspects of the show and its enabling technologies. I architected and wrote the overall system and backend which ran the show, built the software and hardware to run one of the set-piece games and did a lot of work to pull the whole thing together, both technically and as a producer. I also built a number of small exploratory prototypes in the early stages of the project, was a key member of the show&#39;s creative team, and spent a not-insignificant amount of time acting as intepreter and mediator between creative, technical and design staff.</p>\n",
         "links": [
             {
@@ -136,7 +136,7 @@
     },
     {
         "id": "audio-ar",
-        "title": "Audio AR",
+        "title": "<p>Audio AR</p>\n",
         "body": "<p>The second large research and prototyping project I led at BBC R&amp;D.</p>\n<p>We noticed that spatial audio, locative audio and audio AR were starting to appear as categories of . Much like our previous project on voice devices, I desigend a project which would explore the material properties of the available consumer hardware and do design research to devise UX guidelines.</p>\n<p>We produced one immersive storytelling prototype in-house and hosted a second project by two PhD students from Queen Mary&#39;s University in London which explored group and embodied interactions in an augmented audio space.</p>\n",
         "links": [
             {
@@ -159,7 +159,7 @@
     },
     {
         "id": "bump",
-        "title": "Electromagnetic Field 2018",
+        "title": "<p>Electromagnetic Field 2018</p>\n",
         "body": "<p>A follow-up to my 2016 talk about Numbers Stations, expanding on the relationships between folklore and technology.</p>\n",
         "links": [
             {
@@ -179,7 +179,7 @@
     },
     {
         "id": "paperclock",
-        "title": "E-Ink clock",
+        "title": "<p>E-Ink clock</p>\n",
         "body": "<p>A clock using an e-ink screen. I designed and built the physical clock and wrote the software to drive it.</p>\n",
         "links": [
             {
@@ -200,7 +200,7 @@
     },
     {
         "id": "mncars",
-        "title": "Dora García: Segunda Vez / Second Time Around",
+        "title": "<p>Dora García: Segunda Vez / Second Time Around</p>\n",
         "body": "<p>For a retrospective of Dora Garia&#39;s work at MNCARS, Madrid, Dora wanted a version of <em>Twenty-three million stories</em> that would be <em>&#39;living in the air&#39;</em> of the museum, inivisibly, accessable by visitors&#39; mobile phones. Having developed a sensible distrust of Bluetooth, and not wanting to force installation of an app to see the stories, I came up with the idea of staging a digital intervention on the museum&#39;s wifi network. Every time a visitor logged on to wifi, they would see a generated story instead of the museum&#39;s usual portal page.</p>\n<p>Dora liked the idea, so I worked with museum staff to implement the intervention for the duration of the exhbition.</p>\n",
         "links": [
             {
@@ -224,7 +224,7 @@
     },
     {
         "id": "twentythree",
-        "title": "Dora García, _Twenty-three million, five hundred and eighty-six thousand, four hundred and ninety stories_",
+        "title": "<p>Dora García, <em>Twenty-three million, five hundred and eighty-six thousand, four hundred and ninety stories</em></p>\n",
         "body": "<p>I worked with artist Dora García to create this project for the London Bookshop Map iPhone app. The app allows users to generate a short story by pressing a button, which are created by cutting up existing short stories from Dora&#39;s previous project, <em>All the Stories</em>.  The stories that users create by pressing the button become part of Dora García’s <em>Twenty-three million, five hundred and eighty-six thousand, four hundred and ninety stories (2013 ‑ ongoing)</em> and are updated immediately to a blog.</p>\n<p>In 2018, I span the story generator out from the app onto its own standalone website. </p>\n",
         "links": [
             {
@@ -249,7 +249,7 @@
     },
     {
         "id": "cloudrunner",
-        "title": "I Am Running In The Cloud",
+        "title": "<p>I Am Running In The Cloud</p>\n",
         "body": "<p>An experiment for two Amazon Echoes. Each repeats a text to the other, introducing new errors on every repetition. A homage to Alvin Lucier, via Oulipo S+7.</p>\n",
         "links": [
             {
@@ -274,7 +274,7 @@
     },
     {
         "id": "inspection",
-        "title": "The Inspection Chamber",
+        "title": "<p>The Inspection Chamber</p>\n",
         "body": "<p>An interactive science fiction comedy story for Amazon Alexa and (coming soon to) Google Home in the vein of Douglas Adams, Franz Kafka and Portal, where you play a part in the action using your own voice. We’re calling it ‘conversational radio’ until we come up with something better!</p>\n",
         "links": [
             {
@@ -297,7 +297,7 @@
     },
     {
         "id": "miz",
-        "title": "MIZ Radio Innovation Day 2017",
+        "title": "<p>MIZ Radio Innovation Day 2017</p>\n",
         "body": "<p>Keynote speech at MIZ Radio Innovation Day 2017 with Nicky Birch. We talked about our work creating software, tools and programme formats for voice devices.</p>\n",
         "links": [
             {
@@ -319,7 +319,7 @@
     },
     {
         "id": "haunted",
-        "title": "Haunted Random Forest",
+        "title": "<p>Haunted Random Forest</p>\n",
         "body": "<p>I exhibited Faces in the Cloud at Haunted Random Forest in Brighton in April 2017. </p>\n",
         "links": [
             {
@@ -343,7 +343,7 @@
     },
     {
         "id": "talking-machines",
-        "title": "Talking With Machines",
+        "title": "<p>Talking With Machines</p>\n",
         "body": "<p>Talking With Machines was the first project I led at BBC R&amp;D. We were interested in the emerging category of voice devices and interfaces, spearheaded by Amazon with their Echo device, and Alexa.</p>\n<p>We obtained a developer version of the Echo, and I made some quick prototypes to get a feel for the interactions and capabilities of the device.</p>\n<p>I then designed a project to explore voice devices. It was a two-pronged approach: on the one hand, we&#39;d be making working prototypes to understand how the devices worked, and on the other we&#39;d be doing design research and devising a set of UI guidelines to help others around the BBC and elswhere make things.</p>\n<p>The project was a great success: we created protypes and guidelines that laid the groundwork for the BBC&#39;s later work on these devices, as well as releasing public-facing protoypes that established the BBC in the space and led the way for other creators and publishers. Years later, people still tell me that the guidelines we released help them to create work for these platforms!</p>\n",
         "links": [
             {
@@ -365,7 +365,7 @@
     },
     {
         "id": "emf2016",
-        "title": "Electromagnetic Field 2016",
+        "title": "<p>Electromagnetic Field 2016</p>\n",
         "body": "<p>A reprise of my talk about Numbers Stations from Playful 2014. This talk has since become EMF&#39;s most viewed on YouTube, racking up well over 60,000 views.</p>\n",
         "links": [
             {
@@ -381,7 +381,7 @@
     },
     {
         "id": "body",
-        "title": "The Body",
+        "title": "<p>The Body</p>\n",
         "body": "<p>In December 2014, working with Tim Burrell-Saward as ELK, we helped renowned experimental theatre duo Nigel Barrett and Louise Mari to win the The Oxford Samuel Beckett Theatre Trust Award for &quot;The Body&quot;: an intimate, immersive theatrical performance.</p>\n<p>We were tasked with peppering the performance with discreet technologies designed to help stimulate senses and provoke responses from the unaware audience. These technologies included peripheral vision LED screens, sub-bass chairs, live heart-rate-to-sound conversion and projection mapping.</p>\n<p>In November 2015 the concept was developed into a breathtaking full performance which enjoyed a sold-out run at the Barbican in London and was described by The Guardian as &quot;a seat-shaking, soul-searching techno-futurist experience&quot;.</p>\n",
         "links": [
             {
@@ -406,7 +406,7 @@
     },
     {
         "id": "pastcards",
-        "title": "Pastcards",
+        "title": "<p>Pastcards</p>\n",
         "body": "<p>Pastcards was a boutique, arty little service I ran from to November 2015 October 2017. Every month subscribers would recieve a physical postcard in the mail, featuring an image from their personal Instagram feed picked by a tasteful robot.</p>\n<p>The image chosen remained a mystery to people until it arrived on their doormat; I was playing with the delightfulness of a surprise postcard in the mail, plus a kind of de-ephemeralisation of otherwise disposable social media posts.</p>\n",
         "links": [
             {
@@ -429,7 +429,7 @@
     },
     {
         "id": "bees",
-        "title": "Bees in a Tin",
+        "title": "<p>Bees in a Tin</p>\n",
         "body": "<p>A talk about building the Throne at Bees in a Tin 2014 in Birmingham.</p>\n",
         "links": [
             {
@@ -448,7 +448,7 @@
     },
     {
         "id": "playful",
-        "title": "Playful 2014",
+        "title": "<p>Playful 2014</p>\n",
         "body": "<p>A talk at Playful 2014 about Numbers Stations - mysterious Cold War shortwave radio staions - and how they work as generators of folklore.</p>\n",
         "links": [
             {
@@ -467,7 +467,7 @@
     },
     {
         "id": "sublime",
-        "title": "The New Sublime",
+        "title": "<p>The New Sublime</p>\n",
         "body": "<p>I exhibited Faces in the Cloud at The New Sublime in Brighton in September 2014. </p>\n",
         "links": [
             {
@@ -487,7 +487,7 @@
     },
     {
         "id": "throne",
-        "title": "The Throne at Game of Crowns",
+        "title": "<p>The Throne at Game of Crowns</p>\n",
         "body": "<p>Created as the focal point of a month long Christmas 2013 event at Kensington Palace curated by legendary games designers Hide&amp;Seek, the Throne was designed to offer visitors a magical, fairytale experience: the opportunity to be crowned under a title of their own creation.</p>\n<p>Each visitor was given an empty title board which they then filled with a choice of over one hundred different adjectives, titles and places. They then walked the red carpet and took their place on the throne. Thirteen golden trumpets then sounded a royal fanfare, with coloured streamers shooting out of each. A regal voice then emanated from the throne, presenting the visitor to the crowd using their chosen title. And there was much rejoicing.</p>\n<p>This was a project built with Tim Burrell-Saward as ELK. I wrote the software which ran the installation, designed the technical platform, worked with Tim on the electronics and did the majority of the digital experience design.</p>\n",
         "links": [
             {
@@ -511,7 +511,7 @@
     },
     {
         "id": "lbm",
-        "title": "The London Bookshop Map",
+        "title": "<p>The London Bookshop Map</p>\n",
         "body": "<p>An iPhone app built for the publishers of the lovely London Bookshop Map. The app shows users the nearest independent bookshop to their current location in London, and allows them to search for specialisms including art, children’s, secondhand and many more.</p>\n<p>The app also features a commission by artist Dora García. Choose to generate a story and it will be added to her ongoing project Twenty-three million, five hundred and eighty-six thousand, four hundred and ninety stories (2013–ongoing).</p>\n<p>I built the app, collaborating with the map&#39;s designers to keep the app&#39;s design faithful to the printed map. I also collaborated with Dora García to create the story generator.</p>\n",
         "links": [
             {
@@ -536,7 +536,7 @@
     },
     {
         "id": "elk",
-        "title": "East London Kinetics",
+        "title": "<p>East London Kinetics</p>\n",
         "body": "<p>In August 2013, I founded East London Kinetics (ELK), a physical / digital design studio with Tim Burrell-Saward.</p>\n<p>We worked in physical product design, creative software development, embedded electronics and interaction design to create objects and spaces that sense and react to the world around them.</p>\n<p>We built things that that tell stories.</p>\n",
         "links": [
             {
@@ -560,7 +560,7 @@
     },
     {
         "id": "coney",
-        "title": "Early Days (of a better nation)",
+        "title": "<p>Early Days (of a better nation)</p>\n",
         "body": "<p>In 2013, I participated in an Ideas Lab at Kings College, London. The Lab brought together creative technologists, arts and cultural organisations and academic researchers.</p>\n<p>I ended up working with Coney, an interactive theatre company, on their fledgling show Early Days (of a better nation). In a team with two other technologists, we set about building a prototype system to allow remote audience members to interact meaningfully with events and people in a live theatre space.</p>\n<p>However! I wasn&#39;t writing software for long. Not long into the project, it became clear that we had a communication problem: the artists and technologists couldn&#39;t understand each other. Our artistic partners were talking about <em>beats</em> and <em>narrative</em> and how they wanted the audience to <em>feel</em>. The technologists just wanted a list of features to implement. </p>\n<p>I took it upon myself to meet with the theatre makers at Coney, taking time to understand what they wanted to achieve with the prototype. I then spent some more time translating that into a set of requirements that the developers could build. I spent the rest of the project sitting in this in-between role, helping the artists and technologists understand one another, unblocking our communications.</p>\n<p>It was a formative project for me, and one which set me on the path of being a glue person, enabling artists and technologists to work together effectively. Something which is an important part of my practise today.</p>\n",
         "links": [
             {
@@ -582,7 +582,7 @@
     },
     {
         "id": "faces",
-        "title": "Faces in The Cloud",
+        "title": "<p>Faces in The Cloud</p>\n",
         "body": "<p>An ongoing, automated exploration of machine pareidolia which ran from January 2013 - October 2015. </p>\n<p><em>Pareidolia in humans is a perceptual tic peculiar to the way our nervous systems evolved: it’s better to assume an unidentified shape in the bushes as a hungry tiger rather than a funny-shaped bush. Machines don’t have that genetic baggage: what do these images reveal about the unevennesses in their perceptual model of the world? How does pareidolia work when it’s a mode of pareidolia arising from machine perception?</em></p>\n",
         "links": [
             {
@@ -604,7 +604,7 @@
     },
     {
         "id": "botology",
-        "title": "Mimeomorphs",
+        "title": "<p>Mimeomorphs</p>\n",
         "body": "<p>In January 2013, I was interviewed by Matthew Plummer-Fernandez about a collection of bots I&#39;d been running on Twitter: the Mimeomorphs. Each one of these bots &#39;learned&#39; langauge from a specific Twitter user, or group of users, and generated new text from its learned model. </p>\n",
         "links": [
             {
@@ -623,7 +623,7 @@
     },
     {
         "id": "philter",
-        "title": "Philter Phactory",
+        "title": "<p>Philter Phactory</p>\n",
         "body": "<p>Definitely one of the strangest gigs I&#39;ve had. My experiments with language-processing bots led to a year or so working for Philter Phactory, whose main product was Weavrs: autonomous social bots.</p>\n<p>I wrote &#39;prosthetics&#39; for the Weavrs which enabled them to generate their own strange broken poetry, and a suite of linguistic &#39;effects pedals&#39; with which users could give their bots particular accents, stylistic traits or idiosyncracies. I also did a bunch of general backend programming, housekeeping, documentation and playful prototyping. </p>\n<p>In addition, we modified a Teddy Ruxpin doll which we connected to the internet and took to conferences, providing a physical body for the bots to inhabit while we talked about them. I told you it was a strange gig.</p>\n",
         "links": [
             {
@@ -648,7 +648,7 @@
     },
     {
         "id": "biophilia",
-        "title": "Biophilia",
+        "title": "<p>Biophilia</p>\n",
         "body": "<p>Working with biomedical animator Drew Berry, I created a custom video player and interactive DNA replication music sequencer for Björk&#39;s Biophilia app album.</p>\n",
         "links": [
             {
@@ -668,7 +668,7 @@
     },
     {
         "id": "tucker",
-        "title": "Malcolm Tucker: The Missing Phone",
+        "title": "<p>Malcolm Tucker: The Missing Phone</p>\n",
         "body": "<p>While I was working with app development company Agant, we were approached by Faber &amp; Faber with a brief to create an iPhone version of a book they had coming out based on <em>The Thick of It</em>. They didn&#39;t just want a simple ebook - they wanted something that would use the affordances of the device to make something that felt native to the phone.</p>\n<p>The concept of the book was that one of the show&#39;s main characters, Malcolm Tucker, had left a folder full of sensitive documents on a train. The book was the illict contents of this folder.</p>\n<p>After a few phone calls thinking about how to approach the brief, I came up with the idea of translating the concept of the book to something that would make sense on an iPhone. If the book simulated the experience of finding a folder full of paper documents, maybe the app should simulate the experience of finding Malcolm&#39;s phone?</p>\n<p>It was one of those beautiful ideas which completely unlocks a project. From there, the rest of the design just flowed. We reformatted material from the book into emails, text messages and file attachments. Members of the cast recorded new material as voicemails, and then we added our crowning achievement - a story engine which, when triggered, would play out the storyline of Malcolm trying to get his phone back over a couple of days of the user&#39;s real time, using notifications to send new voicemails, emails and messages.</p>\n<p>The app was wildly successful - people loved the feel of rifling through a fictional character&#39;s phone, and the experience of living through a realtime, personal story. We had loads of great reviews, and in 2011 it became the first app to be nominated for a TV BAFTA.</p>\n<p>I was sole developer on the project and led its creative development.</p>\n",
         "links": [
             {
@@ -693,7 +693,7 @@
     },
     {
         "id": "launchball",
-        "title": "Launchball",
+        "title": "<p>Launchball</p>\n",
         "body": "<p>A physics-based Flash game I built for the Science Museum during my stint at Preloaded. It eventually racked over 10 million plays, and won a slew of awards, including Best in Show and Best Game at SXSW 2008 and Technical Excellence at Flash in the Can.</p>\n<p>I was sole developer on the project, and contributed heavily to the game design.</p>\n",
         "links": [
             {
@@ -715,7 +715,7 @@
     },
     {
         "id": "tonic",
-        "title": "Tonic",
+        "title": "<p>Tonic</p>\n",
         "body": "<p>I cut my agency teeth at Tonic, my first London job. Most of my work was producing Flash microsites, and I quickly progressed through projects of increasing ambitiousness and scope. It was here that I learned to produce high-quality work under agency deadlines and when I really started to learn the craft of creative development.</p>\n",
         "links": [],
         "date": "2004-12-01",
@@ -728,7 +728,7 @@
     },
     {
         "id": "codemasters",
-        "title": "Codemasters",
+        "title": "<p>Codemasters</p>\n",
         "body": "<p>I worked at Codemasters in their fledgling Online Marketing department in 2000 and 2004, bookending my university years. My second ever real job, I cranked out a lot of banner ads and microsites as part of the marketing campaigns for their games, but by far the most fun bit was creating viral games in Director and Flash to support those campaigns.</p>\n",
         "links": [
             {

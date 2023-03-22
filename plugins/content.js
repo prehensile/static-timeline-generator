@@ -49,7 +49,7 @@ function parseMarkdown( markdown, filepath ){
 
     const entry = {
         "id" : id,
-        "title": tokens[0].text,
+        "title": marked.parse(tokens[0].text),
         "body" : body,
         "links" : links
     }

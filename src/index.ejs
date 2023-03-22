@@ -47,16 +47,17 @@ classForCategories = function(categories) {
       <article class="timeline">
         <% content.entries.forEach(function(entry){ %>
         <div
-          class="timeline-entry"
+          class="timeline-entry <%= classForCategories(entry.categories) %>"
           data-category="<%= entry.categoriesString %>"
           aria-hidden="false"
         >
-          <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>">
+          <!-- <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>"> -->
+          <div class="timeline-icon" title="<%= entry.faicon %>">
             <% if (entry.faicon) { %>
             <i class="fas fa-<%= entry.faicon %>" aria-hidden="true"></i>
             <% } %>
           </div>
-          <div class="timeline-description <%= classForCategories(entry.categories) %>">
+          <div class="timeline-description">
             <span class="timestamp"
               ><time datetime="<%- entry.datetime || entry.date %>"
                 ><%- utilities.humanizeDate(entry.datetime, entry.date) %></time
