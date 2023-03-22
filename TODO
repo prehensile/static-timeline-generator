@@ -8,9 +8,7 @@
     - Project / Job / Publication / Talk / etc
 [*]  Implement color coding
 [*]  Filter dropdown should update when user clicks a category link
-[]  crop images
 [*]  Add intro panel
-[]  Scroll to top when a new category is selected
-[]  Dropdown should update to reflect category selection when a category link is clicked
+[*]  Scroll to top when a new category is selected
+[*]  Dropdown should update to reflect category selection when a category link is clicked
 []  Filter dropdown should wrap under name title on narrow screens
-[]  Add explanatory entry to top
