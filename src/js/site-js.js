@@ -64,7 +64,6 @@ function updatePageForFilters( activeFilters ){
   scrollToTop();
 }
 
-
 function checkAll() {
   var checkboxes = document.querySelectorAll('input[type="checkbox"][name="filter"]');
   checkboxes.forEach(function (box) {
@@ -113,12 +112,26 @@ function onCategorySelectorChange(){
   }
 }
 
-function onCategoryLinkClick( e ){
-  const category = e.target.dataset.category;
+function selectCategory( category ){
   // select option in filter dropdown
   document.querySelector('#category-selector').value = category;
   updatePageForFilters([category]);
-  return false;
+}
+
+function onCategoryLinkClick( e ){
+  selectCategory( e.target.dataset.category );
+}
+
+function getCategories(){
+  return [...document.querySelector('#category-selector').options].map(o => o.value)
+}
+
+function onDescriptionLinkClick( e ){
+  const href = e.target.href;
+  // catch links to categories
+  if( !href.includes('#') ) return;
+  const id = href.substring( href.indexOf('#') + 1 );
+  if( getCategories().includes(id) ) selectCategory( id );
 }
 
 function onHeaderClick(){
@@ -137,6 +150,9 @@ function onload() {
   });
 
   document.querySelector('.timeline-filter-inner p').addEventListener('click', onHeaderClick);
+  document.querySelectorAll('.timeline-description a').forEach((a)=>{
+    a.addEventListener('click', onDescriptionLinkClick);
+  });
 
   /* Flow entries */
   reflowEntries();
