@@ -1,8 +1,8 @@
 []  Add publications
 []  Proofread
-[]  Sort out markdown rendering (italic in titles isn't rendered properly)
-[]  Impelement images
+[*]  Sort out markdown rendering (italic in titles isn't rendered properly)
+[*]  Impelement images
 []  Prune tags
 []  Work out which tags dictate colour coding (which are top-level categories)
     - Project / Job / Publication / Talk / etc
-[]  Implement color coding
+[*]  Implement color coding
