@@ -12,3 +12,5 @@
 [*]  Scroll to top when a new category is selected
 [*]  Dropdown should update to reflect category selection when a category link is clicked
 []  Filter dropdown should wrap under name title on narrow screens
+[]  Tidy up href & window location handling
+[]  Add job entries for BBC & preloaded
