@@ -1,3 +1,25 @@
+<%
+const _categoryClasses = {
+  "job" : "category-job",
+  "talks" : "category-talk",
+  "publications" : "category-publications",
+  "introduction" : "category-intro"
+}
+classForCategory = function( cat ){
+  if( _categoryClasses.hasOwnProperty(cat) ){
+    return(_categoryClasses[ cat ]);
+  }
+}
+classForCategories = function(categories) {
+  //console.log( categories );
+  for(const cat of categories){
+    const klass = classForCategory( cat );
+    if( klass ) return klass;
+  }
+  return ""
+}
+%>
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -15,11 +37,16 @@
                 <option value="_all" selected>📖 Everything</option>
                 <option value="greatest-hits">⭐ Greatest Hits</option>
                 <option value="_random">🎲 Random</option>
-              <optgroup label="──────────">
+                <option value="divider" disabled>──────────</option>
+                <% for(const cat in _categoryClasses){ %>
+                  <option class="<%= _categoryClasses[cat] %>" value="<%= cat %>"><%= cat  %></option>
+                  <% }; %>
+                  <option value="divider" disabled>──────────</option>
+              <!-- <optgroup label="──────────"> -->
                 <% content.filters.forEach(function(filter){ %>
-                <option value="<%= filter %>">#<%= filter %><!-- <%- utilities.sentenceCase(filter) %>--></option>
+                <option value="<%= filter %>"><%= filter %></option>
                 <% }); %>
-              </optgroup>
+              <!-- </optgroup> -->
               </select>
           </div>
         </header>
@@ -27,11 +54,12 @@
       <article class="timeline">
         <% content.entries.forEach(function(entry){ %>
         <div
-          class="timeline-entry"
+          class="timeline-entry <%= classForCategories(entry.categories) %>"
           data-category="<%= entry.categoriesString %>"
           aria-hidden="false"
         >
-          <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>">
+          <!-- <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>"> -->
+          <div class="timeline-icon" title="<%= entry.faicon %>">
             <% if (entry.faicon) { %>
             <i class="fas fa-<%= entry.faicon %>" aria-hidden="true"></i>
             <% } %>
@@ -46,7 +74,9 @@
               <a id="<%= entry.id %>" href="#<%= entry.id %>"><i class="fas fa-link"></i></a><%-
               entry.title %>
             </h2>
-            <img src="img/content/emf22.jpg">
+            <% if (entry.image) { %>
+              <img src="img/content/<%= entry.image.src %>" loading="lazy">
+            <% } %>
             <!-- <% if (entry.image) { %>
             <div class="captioned-image image-right">
               <% if (entry.image.link) { %><a href="<%= entry.image.link %>"
@@ -66,7 +96,7 @@
             <ul>
               <% entry.links.forEach(function (link) { %>
               <li>
-                <a href="<%= link.href %>" target="_blank"><%- link.linkText %></a><%-
+                <a class="entry-link" href="<%= link.href %>" target="_blank"><%- link.linkText %></a><%-
                 link.extraText %>
               </li>
               <% }) %>
@@ -74,7 +104,7 @@
             <% } %> <% if (entry.categories) { %>
               <p>
                 <% entry.categories.forEach(function (category) { %>
-                <a href="#" class="category-link" data-category="<%- category %>">#<%- category %></a>
+                <a href="#" class="category-link <%= classForCategory(category) %>" data-category="<%- category %>">#<%- category %></a>
                 <% }) %>
               </p>
               <% } %>
@@ -92,7 +122,7 @@
       </p>
       <% } %>
       <p>
-        Built with Molly White's
+        Based on Molly White's
         <a href="https://github.com/molly/static-timeline-generator" target="_blank"
           >static timeline generator</a
         >.

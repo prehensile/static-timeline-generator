@@ -1,8 +1,14 @@
 []  Add publications
 []  Proofread
-[]  Sort out markdown rendering (italic in titles isn't rendered properly)
-[]  Impelement images
+[*]  Sort out markdown rendering (italic in titles isn't rendered properly)
+[*]  Impelement images
+[]  Crop & resize all images to 1280x720
 []  Prune tags
 []  Work out which tags dictate colour coding (which are top-level categories)
     - Project / Job / Publication / Talk / etc
-[]  Implement color coding
+[*]  Implement color coding
+[*]  Filter dropdown should update when user clicks a category link
+[*]  Add intro panel
+[*]  Scroll to top when a new category is selected
+[*]  Dropdown should update to reflect category selection when a category link is clicked
+[]  Filter dropdown should wrap under name title on narrow screens
