@@ -1,20 +1,15 @@
 /* one monokai */
-#282C34
-#2F333D
-#D7DAE0
-#21252B
-#383E4A
-#FFFFFF
-#9DA5B4
-#BBBBBB
-#E06C75
-#E5C07B
-#676F7D
-#56B6C2
-#61AFEF
-#98C379
-#D19A66
-#C678DD
+$om-background02: #282C34
+$om-background01:#21252B
+$om-plain:      #abb2bf
+$om-pink:       #E06C75
+$om-gold:       #E5C07B
+$om-cyan:       #56B6C2
+$om-blue:       #61AFEF
+$om-lime:       #98C379
+$om-brown:      #D19A66
+$om-purple:     #C678DD
+$om-comment:    #5c6370
 
 /* vs code */
 $vs-base03:  #1e1e1e
@@ -48,28 +43,28 @@ $icon-colors: ("green": #59bf51, "red": #bf413e, "grey":#999999)
 /* Background colors ---------------------------*/
 $main-background: $base03
 $card-background: $base02
-$filterbar-background: $base02
 $filterbar-foreground: $magenta
-$header-footer-background: $filterbar-background
-
 
 /* Text colors ---------------------------------*/
 // Header and footer
 $title-color: $blue
-$header-footer-body-color: #eeeeee
-$header-footer-link-color: #7acbff
 $foreground-color: $base0 
 $highlight-color: $base1
-
-// Main
 $main-link-color: $blue
 $timestamp-color: $title-color
-
-/* Other colors ---------------------------------*/
-$timeline-line-color: $highlight-color
-$timeline-icon-color: #ffffff
 
 $color-talks: $cyan
 $color-jobs: $yellow
 $color-publications: $violet
 $color-intro: $green
+
+/* Other colors ---------------------------------*/
+$timeline-line-color: $highlight-color
+$timeline-icon-color: $timeline-line-color
+
+$header-footer-body-color: $foreground-color
+$header-footer-link-color: $main-link-color
+
+$filterbar-background: $card-background
+$header-footer-background: $filterbar-background
+
