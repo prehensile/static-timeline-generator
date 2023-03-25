@@ -98,7 +98,6 @@ function reflowEntries() {
   }
 }
 
-
 function onCategorySelectorChange(){
   
   const selectedValues = Array.from(
@@ -107,6 +106,8 @@ function onCategorySelectorChange(){
 
   if( selectedValues.includes("_all") ){
     showAllEntries();
+  } else if( selectedValues.includes("_random") ){
+    selectRandomCategory();
   } else {
     updatePageForFilters( selectedValues );
   }
@@ -136,6 +137,12 @@ function onDescriptionLinkClick( e ){
 
 function onHeaderClick(){
   scrollToTop();
+}
+
+function selectRandomCategory(){
+  const categories = getCategories();
+  const category = categories[Math.floor(Math.random()*categories.length)];
+  selectCategory( category );
 }
 
 function onload() {
