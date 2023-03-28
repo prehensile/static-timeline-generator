@@ -1,5 +1,5 @@
 ---
-categories: [art,personal,software,bots,installation,exhibition]
+categories: [art,personal,software,bots,installation,exhibition,machine-vision]
 date: 2014-09-05 13:00:00
 ---
 

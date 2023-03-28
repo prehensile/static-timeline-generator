@@ -1,5 +1,5 @@
 ---
-categories: [flash,web,work-work,job]
+categories: [flash,web,job]
 date: 2004-12-01
 ---
 

@@ -1,5 +1,5 @@
 ---
-categories: [talks,folklore,stories]
+categories: [talks,research,greatest-hits]
 date: 2018-09-01
 ---
 

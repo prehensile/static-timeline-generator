@@ -1,5 +1,5 @@
 ---
-categories: [art,hacking,personal]
+categories: [art,hacking,personal,team-lead]
 date: 2022-06-02
 ---
 

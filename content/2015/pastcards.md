@@ -1,5 +1,5 @@
 ---
-categories: [personal,software,web,product,print,service]
+categories: [personal,software,web,product,print,service,art,greatest-hits,creative-technologist]
 date: 2015-10-14
 ---
 

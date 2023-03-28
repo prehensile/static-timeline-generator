@@ -1,5 +1,5 @@
 ---
-categories: [work-work,bbc-rd,software,amazon-echo,sound,greatest-hits]
+categories: [bbc-rd,software,amazon-echo,sound,greatest-hits,prototyping,team-lead,producer]
 date: 2017-11-06
 ---
 

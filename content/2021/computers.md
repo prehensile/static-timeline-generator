@@ -1,5 +1,5 @@
 ---
-categories: [art,artistic-collaborator,personal,software,exhibition,installation]
+categories: [art,artistic-collaborator,personal,software,exhibition,installation,creative-technologist,greatest-hits]
 date: 2022-01-20 13:00:00
 ---
 

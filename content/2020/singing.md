@@ -1,5 +1,5 @@
 ---
-categories: [art,hacking,personal,hardware,sound,electronics,prototype] 
+categories: [art,hacking,personal,hardware,sound,electronics,prototyping,creative-technologist] 
 date: 2020-08-20
 ---
 

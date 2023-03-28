@@ -1,5 +1,5 @@
 ---
-categories: [personal,hardware,electronics,prototype] 
+categories: [personal,hardware,electronics,prototyping] 
 date: 2018-05-15
 ---
 

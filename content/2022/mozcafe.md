@@ -1,5 +1,5 @@
 ---
-categories: [work-work,software,web,installation,bbc-rd]
+categories: [software,web,installation,bbc-rd,creative-technologist]
 date: 2022-04-26
 ---
 

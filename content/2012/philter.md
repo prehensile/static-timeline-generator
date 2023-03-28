@@ -1,5 +1,5 @@
 ---
-categories: [work-work,freelance,software,bots,web,language,greatest-hits,job] 
+categories: [freelance,software,bots,web,language,greatest-hits,job] 
 date: 2012-08-24
 ---
 

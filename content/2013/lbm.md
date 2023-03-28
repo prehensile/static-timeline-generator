@@ -1,5 +1,5 @@
 ---
-categories: [iphone,creative-technologist,work-work,software,freelance,art,artistic-collaborator,language]
+categories: [iphone,creative-technologist,software,freelance,art,artistic-collaborator,language]
 date: 2013-11-16
 ---
 

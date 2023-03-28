@@ -1,5 +1,5 @@
 ---
-categories: [work-work,hardware,electronics,software,installation,elk,greatest-hits] 
+categories: [hardware,electronics,software,installation,elk,greatest-hits,creative-technologist] 
 date: 2013-11-30
 ---
 
