@@ -1,5 +1,5 @@
 ---
-categories: [work-work,freelance,hardware,electronics,software,installation,immersive-theatre,prototyping] 
+categories: [work-work,freelance,hardware,electronics,software,installation,immersive-theatre,prototyping,greatest-hits,research] 
 date: 2015-11-22
 ---
 

@@ -1,5 +1,5 @@
 ---
-categories: [art,hacking,personal,events]
+categories: [art,hacking,personal,events,greatest-hits]
 date: 2022-06-02
 ---
 

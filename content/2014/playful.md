@@ -1,5 +1,5 @@
 ---
-categories: [talks,sound]
+categories: [talks,sound,events,greatest-hits]
 date: 2014-10-24
 ---
 
