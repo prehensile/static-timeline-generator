@@ -1,11 +1,22 @@
+TODO
 []  Add publications
-[]  Proofread
-[*]  Sort out markdown rendering (italic in titles isn't rendered properly)
-[*]  Impelement images
-[]  Crop & resize all images to 1280x720
-[]  Prune tags
+[]  Click name to reset filters & scroll to top
+[]  Add categorgies for creative tech / producer / researcher / team lead
 []  Work out which tags dictate colour coding (which are top-level categories)
     - Project / Job / Publication / Talk / etc
+[]  Prune tags
+[]  Add job entries for BBC & preloaded
+[]  Sort out greatest-hits
+[]  Proofread
+[]  Crop & resize all images to 1280x720
+[]  Tidy up href & window location handling
+[]  Sort out responsive title wrapping
+[]  Change link formatting -> bullet item to link icon, remove indent
+[]  Figure out why editing md doesn't cause rebuild of content & fix
+
+DONE
+[*]  Sort out markdown rendering (italic in titles isn't rendered properly)
+[*]  Impelement images
 [*]  Implement color coding
 [*]  Filter dropdown should update when user clicks a category link
 [*]  Add intro panel
@@ -16,6 +27,6 @@
 []  Add job entries for BBC & preloaded
 []  Sort out responsive title wrapping
 []  Add categorgies for creative tech / producer / researcher / team lead
-[*]  Implement random
 [] Add better images....
 [] Add Design Museum talk
+[*]  Implement random#

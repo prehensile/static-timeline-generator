@@ -2,12 +2,54 @@
     {
         "id": "welcome",
         "title": "<p>Welcome</p>\n",
-        "body": "<p>This is a timeline of selected projects, jobs, and other things I&#39;ve made with computers <a href=\"#codemasters\">since 2000</a>. It&#39;s intended to give you an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
+        "body": "<p>This is a timeline of selected projects, jobs, and other things I&#39;ve done with computers <a href=\"#codemasters\">since the year 2000</a>. It&#39;s intended to give an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
         "links": [],
-        "date": "2023-03-22",
+        "date": "2024-01-01",
         "categories": [
             "introduction"
         ]
+    },
+    {
+        "id": "dorkbot",
+        "title": "<p>Dorkbot Manchester</p>\n",
+        "body": "<p>Working with artist <a href=\"https://antonyhall.net/blog/\">Anthony Hall</a>, I restarted Dorkbot Manchester in 2024.</p>\n<p>Dorkbot is an international group of meetups for artists, engineers, designers, scientists, inventors, and anyone else working under the broad umbrella of electronic art. Dorkbot meetings aim to nurture a local electronic arts community and to encourage people to talk about the work they&#39;re doing, and to foster discussion about that work in a friendly, supportive, informal atmosphere.</p>\n",
+        "links": [
+            {
+                "href": "http://dorkbotmcr.org/",
+                "linkText": "Dorkbot Manchester"
+            }
+        ],
+        "date": "2023-10-25",
+        "categories": [
+            "events",
+            "art",
+            "personal"
+        ],
+        "image": {
+            "src": "dorkbot.png"
+        }
+    },
+    {
+        "id": "projections",
+        "title": "<p>PROJECTIONS: &quot;Things are not normal&quot;</p>\n",
+        "body": "<p>A foresight report produced as Lead Foresight Researcher in BBC R&amp;D&#39;s Advisory Team.</p>\n<p>My inital brief was to compile a list of technologies and platforms that R&amp;D and the wider BBC should be paying attention to over the next few years. I immediately blew up my own scope by countering: yes, of course, but we should also be looking at the wider social &amp; political contexts in which the BBC&#39;s audiences (and the BBC itself) will be operating in those years. To narrow our scope to technologies alone would be missing the whole picture: nobody and no company uses technology in a vacuum, and we need to anticipate the futures in which our audiences will be using technologies in order to design and build products which will be useful to them in those futures.</p>\n<p>The report went down very well both inside and outside the BBC; people tell me that it has a depth and concern for big-picture issues like inequalities and the environment that they don&#39;t often see in tech (and adjacent) industry foresight reports. Even better, a fair few people have told me that it&#39;s inspired a lot of new thinking for them, which is great!</p>\n",
+        "links": [
+            {
+                "href": "https://www.bbc.co.uk/rd/blog/2023-10-projections-things-are-not-normal",
+                "linkText": "Projections: Things are not normal - BBC R&D"
+            }
+        ],
+        "date": "2023-09-22",
+        "categories": [
+            "publications",
+            "foresight",
+            "work-work",
+            "research",
+            "bbc-rd"
+        ],
+        "image": {
+            "src": "projections.png"
+        }
     },
     {
         "id": "emf22",
@@ -23,7 +65,8 @@
         "categories": [
             "art",
             "hacking",
-            "personal"
+            "personal",
+            "events"
         ],
         "image": {
             "src": "emf22.jpg"
@@ -73,6 +116,44 @@
         "image": {
             "src": "computers.png"
         }
+    },
+    {
+        "id": "frontiers",
+        "title": "<p>Interactive Audio Augmented Reality in Participatory Performance</p>\n",
+        "body": "<blockquote>\n<p>This study examines how audio human-computer interaction can prompt and support actions, and how audio AR can contribute to developing new kinds of interactions in participatory performance. It draws from aspects of multi-player audio-only games and interactive storytelling. A user experience study of the performance shows that people are engaged with interactive content and interact and navigate within the spatial audio content using their whole body. The performative aspect was well-received and participants took on roles and responsibilities within their group during the experience.</p>\n</blockquote>\n",
+        "links": [
+            {
+                "href": "https://doi.org/10.3389/frvir.2020.610320",
+                "linkText": "Interactive Audio Augmented Reality in Participatory Performance"
+            }
+        ],
+        "date": "2021-02-12",
+        "categories": [
+            "work-work",
+            "bbc-rd",
+            "sound",
+            "audio-ar",
+            "ar",
+            "research",
+            "publications"
+        ]
+    },
+    {
+        "id": "browsing",
+        "title": "<p>Browsing with Alexa: Interrogating the impact of voice assistants as web interfaces</p>\n",
+        "body": "<p>An article co-authored with media scholar <a href=\"https://orcid.org/0000-0003-1962-2398\">Simone Natale</a> and published in <a href=\"https://journals.sagepub.com/home/mcs\">Media, Culture &amp; Society</a>. </p>\n<blockquote>\n<p>Voice assistants such as Siri, Alexa, and Google Assistant have recently been the subject of lively debates in regard to issues such as artificial intelligence, surveillance, gender stereotypes, and privacy. Less attention, however, has been given to the fact that voice assistants are also web interfaces that might impact on how the web is accessed, understood and employed by users.</p>\n</blockquote>\n",
+        "links": [
+            {
+                "href": "https://doi.org/10.1177/0163443720983295",
+                "linkText": "Browsing with Alexa: Interrogating the impact of voice assistants as web interfaces"
+            }
+        ],
+        "date": "2020-12-24",
+        "categories": [
+            "publications",
+            "vui",
+            "research"
+        ]
     },
     {
         "id": "singing",
@@ -143,6 +224,27 @@
         "image": {
             "src": "punchdrunk.jpg"
         }
+    },
+    {
+        "id": "eurovr",
+        "title": "<p>Designing an Interactive and Collaborative Experience in Audio Augmented Reality</p>\n",
+        "body": "<blockquote>\n<p>This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>\n</blockquote>\n",
+        "links": [
+            {
+                "href": "https://doi.org/10.1007/978-3-030-31908-3_20",
+                "linkText": "Designing an Interactive and Collaborative Experience in Audio Augmented Reality"
+            }
+        ],
+        "date": "2019-10-23",
+        "categories": [
+            "work-work",
+            "bbc-rd",
+            "sound",
+            "audio-ar",
+            "ar",
+            "research",
+            "publications"
+        ]
     },
     {
         "id": "audio-ar",
@@ -306,6 +408,26 @@
         }
     },
     {
+        "id": "vui",
+        "title": "<p>Talking With Machines: Prototyping Voice Interfaces For Media</p>\n",
+        "body": "<blockquote>\n<p>Voice User Interfaces (VUI) and consumer products such as Amazon Echo and Google Home are rapidly gaining popularity and are already being used as media devices in the home. The relative novelty of this class of interface means that there is little existing literature describing UX for VUI. This paper describes a methodology we are developing to address this lack of literature, followed by some design principles we have discovered during our work on prototype VUIs.</p>\n</blockquote>\n",
+        "links": [
+            {
+                "href": "https://www.semanticscholar.org/paper/TALKING-WITH-MACHINES%3A-PROTOTYPING-VOICE-INTERFACES-Cooke-Howe/b452f2e1ceb0db287d34ce28d433dcc8cbd859ad",
+                "linkText": "Talking With Machines: Prototyping Voice Interfaces For Media"
+            }
+        ],
+        "date": "2017-10-26",
+        "categories": [
+            "work-work",
+            "bbc-rd",
+            "vui",
+            "ux",
+            "research",
+            "publications"
+        ]
+    },
+    {
         "id": "miz",
         "title": "<p>MIZ Radio Innovation Day 2017</p>\n",
         "body": "<p>Keynote speech at MIZ Radio Innovation Day 2017 with Nicky Birch. We talked about our work creating software, tools and programme formats for voice devices.</p>\n",
@@ -328,6 +450,25 @@
         }
     },
     {
+        "id": "tellybox",
+        "title": "<p>Tellybox: Nine Speculative Prototypes For Future TV</p>\n",
+        "body": "<blockquote>\n<p>We have developed nine speculative (&quot;half-resolution&quot;) prototypes as part of our project to explore future possibilities for television experiences as widely as possible. The prototypes are physical representations of our research into why people watch television and what they like and dislike about it. Their physicality improves engagement and quality of feedback, at low cost.</p>\n</blockquote>\n",
+        "links": [
+            {
+                "href": "https://doi.org/10.1145/3084289.3089910",
+                "linkText": "Tellybox: Nine Speculative Prototypes For Future TV"
+            }
+        ],
+        "date": "2017-06-14",
+        "categories": [
+            "work-work",
+            "bbc-rd",
+            "research",
+            "publications",
+            "prototyping"
+        ]
+    },
+    {
         "id": "haunted",
         "title": "<p>Haunted Random Forest</p>\n",
         "body": "<p>I exhibited Faces in the Cloud at Haunted Random Forest in Brighton in April 2017. </p>\n",
@@ -345,7 +486,8 @@
             "bots",
             "installation",
             "exhibition",
-            "machine-vision"
+            "machine-vision",
+            "events"
         ],
         "image": {
             "src": "haunted.png"

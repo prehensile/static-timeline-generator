@@ -1,5 +1,5 @@
 ---
-categories: [hardware,electronics,software,installation,elk, job] 
+categories: [work-work,hardware,electronics,software,installation,elk,job] 
 date: 2013-08-01
 ---
 
