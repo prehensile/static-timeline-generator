@@ -1,5 +1,5 @@
 ---
-categories: [personal,hardware,electronics,prototyping] 
+categories: [personal,hardware,electronics,prototyping,creative-technologist] 
 date: 2018-05-15
 ---
 
