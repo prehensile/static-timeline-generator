@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-categories: [art,hacking,personal,team-lead]
-=======
-categories: [art,hacking,personal,events,greatest-hits]
->>>>>>> 2562716c387fbd88f9e82fc4bd6d390f5a5a8c15
+categories: [art,hacking,personal,team-lead,greatest-hits,events]
 date: 2022-06-02
 ---
 
