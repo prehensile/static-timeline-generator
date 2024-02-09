@@ -68,7 +68,9 @@ function parseMarkdown( markdown, filepath ){
         const imagePath = filepath.replace( '.md', ext );
         if( fs.existsSync(imagePath) ){
             entry[ 'image' ] = {
-                src : path.basename(imagePath)
+                src :  path.basename(
+                    filepath.replace( '.md', ".jpg" )
+                )
             }
         }
     }

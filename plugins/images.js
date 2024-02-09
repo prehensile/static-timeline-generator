@@ -1,57 +1,53 @@
 const walk = require('walkdir');
-const chokidar = require('chokidar');
-const { exec } = require("child_process");
+const sharp = require('sharp');
+sharp.cache(false);
 const fs = require('fs');
+const path = require('path');
+const { glob, globSync } = require('glob');
 
-function run( command ){
-    console.log( command )
-    exec( command, (error, stdout, stderr) => {
-        if (error) {
-            console.log(`error: ${error.message}`);
-            return;
-        }
-        if (stderr) {
-            console.log(`stderr: ${stderr}`);
-            return;
-        }
-        console.log(`stdout: ${stdout}`);
-    });
-}
+async function processFile( sourcePath, destDir, destWidth ){
+    
+    const parsed = path.parse( sourcePath );
 
-function processFile( filePath ){
-    let command = null;
-    console.log( filePath );
-    if( filePath.endsWith(".jpg") ){
-        command = `mogrify -quality 75 -resize 1280 ${filePath}`;
-    } else if ( filePath.endsWith(".png") ){
-        command = `mogrify -resize 1280 ${filePath}`;
-    }
-    if( command ){
-        run( command );
-    }
+    const destPath = path.join(
+        destDir,
+        parsed.name + ".jpg"
+    )
+
+    console.log( `Writing ${destPath}...` );
+
+    sharp( sourcePath )
+        .resize( destWidth )
+        .toFile( destPath );
 }
 
 
 module.exports = (eleventyConfig, options) => {
     
     const defaults = {
-        pthImageFiles : "./_site/img/content",
+        pthSourceImages : [
+            'content/*/*.png',
+            'content/*/*.jpg'
+        ],
+        pthDestination : "./_site/img/content",
         imageWidth : 1280
     }
 
     // merge defaults with user options and extract paths
-    const { pthImageFiles } = {
+    const { pthSourceImages, pthDestination, imageWidth } = {
         ...defaults,
         ...options
     }
 
-    // walk.sync( pthImageFiles, function(filePath, stat) {
-    //     processFile( filePath );
-    // });
+    for( const pthSource of pthSourceImages ){
 
-   // One-liner for current directory
-    chokidar.watch( pthImageFiles ).on('all', (event, path) => {
-        console.log(event, path);
-    });
+        for( const filePath of globSync(pthSource) ){
+            processFile( filePath, pthDestination, imageWidth );
+        }
+
+        // walk.sync( pthSource, function(filePath, stat) {
+        //     processFile( filePath, pthDestination, imageWidth );
+        // });
+    }
 
 };

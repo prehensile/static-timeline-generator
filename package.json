@@ -38,6 +38,8 @@
   },
   "dependencies": {
     "chokidar": "^3.5.3",
+    "glob": "^10.3.10",
+    "sharp": "^0.33.2",
     "walkdir": "^0.4.1"
   }
 }
