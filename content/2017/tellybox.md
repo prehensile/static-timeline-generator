@@ -1,5 +1,5 @@
 ---
-categories: [work-work,bbc-rd,research,publications,prototyping] 
+categories: [bbc-rd,research,publications,prototyping] 
 date: 2017-06-14
 ---
 

@@ -1,5 +1,5 @@
 ---
-categories: [work-work,job,research,prototyping]
+categories: [job,research,prototyping]
 date: 2016-03-07
 ---
 

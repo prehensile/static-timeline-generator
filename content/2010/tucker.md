@@ -1,5 +1,5 @@
 ---
-categories: [iphone,creative-technologist,software,freelance,greatest-hits,agant,faber]
+categories: [iphone,creative-technologist,software,freelance,greatest-hits]
 date: 2010-12-16
 ---
 

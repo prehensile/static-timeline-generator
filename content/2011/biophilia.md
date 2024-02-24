@@ -1,5 +1,5 @@
 ---
-categories: [art,iphone,creative-technologist,work-work,software,freelance,greatest-hits]
+categories: [art,iphone,creative-technologist,software,freelance,greatest-hits]
 date: 2011-10-10
 ---
 

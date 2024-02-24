@@ -1,5 +1,5 @@
 ---
-categories: [work-work,bbc-rd,vui,ux,research,publications] 
+categories: [bbc-rd,vui,research,publications] 
 date: 2017-10-26
 ---
 

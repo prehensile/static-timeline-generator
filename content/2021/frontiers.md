@@ -1,5 +1,5 @@
 ---
-categories: [work-work,bbc-rd,sound,audio-ar,ar,research,publications] 
+categories: [bbc-rd,sound,audio-ar,ar,research,publications] 
 date: 2021-02-12
 ---
 

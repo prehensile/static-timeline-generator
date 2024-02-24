@@ -1,5 +1,5 @@
 ---
-categories: [work-work,bbc-rd,research,art,greatest-hits] 
+categories: [bbc-rd,research,art,greatest-hits] 
 date: 2021-12-14
 ---
 

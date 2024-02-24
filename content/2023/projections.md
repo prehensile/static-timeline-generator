@@ -1,5 +1,5 @@
 ---
-categories: [publications,foresight,work-work,research,bbc-rd,greatest-hits]
+categories: [publications,research,bbc-rd,greatest-hits]
 date: 2023-09-22
 ---
 

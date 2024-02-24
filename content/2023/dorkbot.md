@@ -1,5 +1,5 @@
 ---
-categories: [events,art,personal]
+categories: [events,art]
 date: 2023-10-25
 ---
 

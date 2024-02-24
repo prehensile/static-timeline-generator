@@ -1,5 +1,5 @@
 ---
-categories: [art,personal,software,bots,machine-vision,greatest-hits]
+categories: [art,software,bots,machine-vision,greatest-hits]
 date: 2013-01-20 19:00:07
 ---
 

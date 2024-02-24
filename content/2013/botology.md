@@ -1,5 +1,5 @@
 ---
-categories: [art,personal,software,bots,langauge]
+categories: [art,software,bots,language]
 date: 2013-01-08 17:30:00
 ---
 

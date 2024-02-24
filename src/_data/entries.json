@@ -26,7 +26,7 @@
             "personal"
         ],
         "image": {
-            "src": "dorkbot.png"
+            "src": "dorkbot.jpg"
         }
     },
     {
@@ -45,10 +45,11 @@
             "foresight",
             "work-work",
             "research",
-            "bbc-rd"
+            "bbc-rd",
+            "greatest-hits"
         ],
         "image": {
-            "src": "projections.png"
+            "src": "projections.jpg"
         }
     },
     {
@@ -66,6 +67,8 @@
             "art",
             "hacking",
             "personal",
+            "team-lead",
+            "greatest-hits",
             "events"
         ],
         "image": {
@@ -84,14 +87,14 @@
         ],
         "date": "2022-04-26",
         "categories": [
-            "work-work",
             "software",
             "web",
             "installation",
-            "bbc-rd"
+            "bbc-rd",
+            "creative-technologist"
         ],
         "image": {
-            "src": "mozcafe.png"
+            "src": "mozcafe.jpg"
         }
     },
     {
@@ -111,10 +114,34 @@
             "personal",
             "software",
             "exhibition",
-            "installation"
+            "installation",
+            "creative-technologist",
+            "greatest-hits"
         ],
         "image": {
-            "src": "computers.png"
+            "src": "computers.jpg"
+        }
+    },
+    {
+        "id": "better-images",
+        "title": "<p>Better Images of AI</p>\n",
+        "body": "<p>Abstract, futuristic or science-fiction-inspired images of AI hinder public understanding of the technology’s already significant societal and environmental impacts. Images relating machine intelligence to human intelligence set unrealistic expectations and misstate the capabilities of AI. Such images potentially sow fear, and research shows they can be laden with historical assumptions about gender, ethnicity and religion. A new non-profit collaboration are researching, creating, curating and providing Better Images of AI.</p>\n<p>I led a joint research project for the Better Images of AI collaboration with London College of Communication, contributed to the website build, and initiated and ran two artist commissions - including sorting out the fine details of licensing images under Creative Commons.</p>\n",
+        "links": [
+            {
+                "href": "https://betterimagesofai.org/",
+                "linkText": "Better Images of AI"
+            }
+        ],
+        "date": "2021-12-14",
+        "categories": [
+            "work-work",
+            "bbc-rd",
+            "research",
+            "art",
+            "greatest-hits"
+        ],
+        "image": {
+            "src": "better-images.jpg"
         }
     },
     {
@@ -139,6 +166,25 @@
         ]
     },
     {
+        "id": "aar-collaborative",
+        "title": "<p>Designing an Interactive and Collaborative Experience in Audio Augmented Reality</p>\n",
+        "body": "<p><em>Bauer, V. et al. (2019)</em></p>\n<p>Audio Augmented Reality (AAR) consists of adding spatial audio entities into the real environment. Existing mobile applications and technologies open questions around interactive and collaborative AAR. This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>\n",
+        "links": [
+            {
+                "href": "https://link.springer.com/chapter/10.1007/978-3-030-31908-3_20#citeas",
+                "linkText": "Designing an Interactive and Collaborative Experience in Audio Augmented Reality | SpringerLink"
+            }
+        ],
+        "date": "2020-12-24",
+        "categories": [
+            "publications",
+            "research",
+            "sound",
+            "ar",
+            "audio-ar"
+        ]
+    },
+    {
         "id": "browsing",
         "title": "<p>Browsing with Alexa: Interrogating the impact of voice assistants as web interfaces</p>\n",
         "body": "<p>An article co-authored with media scholar <a href=\"https://orcid.org/0000-0003-1962-2398\">Simone Natale</a> and published in <a href=\"https://journals.sagepub.com/home/mcs\">Media, Culture &amp; Society</a>. </p>\n<blockquote>\n<p>Voice assistants such as Siri, Alexa, and Google Assistant have recently been the subject of lively debates in regard to issues such as artificial intelligence, surveillance, gender stereotypes, and privacy. Less attention, however, has been given to the fact that voice assistants are also web interfaces that might impact on how the web is accessed, understood and employed by users.</p>\n</blockquote>\n",
@@ -152,7 +198,8 @@
         "categories": [
             "publications",
             "vui",
-            "research"
+            "research",
+            "greatest-hits"
         ]
     },
     {
@@ -173,7 +220,8 @@
             "hardware",
             "sound",
             "electronics",
-            "prototype"
+            "prototyping",
+            "creative-technologist"
         ]
     },
     {
@@ -188,12 +236,15 @@
         ],
         "date": "2020-08-20",
         "categories": [
-            "work-work",
             "bbc-rd",
             "sound",
             "audio-ar",
             "ar",
-            "prototype"
+            "prototyping",
+            "team-lead",
+            "producer",
+            "creative-technologist",
+            "greatest-hits"
         ],
         "image": {
             "src": "nigel.jpg"
@@ -211,7 +262,6 @@
         ],
         "date": "2019-12-15",
         "categories": [
-            "work-work",
             "freelance",
             "hardware",
             "electronics",
@@ -219,7 +269,9 @@
             "installation",
             "immersive-theatre",
             "prototyping",
-            "research"
+            "research",
+            "team-lead",
+            "greatest-hits"
         ],
         "image": {
             "src": "punchdrunk.jpg"
@@ -228,7 +280,7 @@
     {
         "id": "eurovr",
         "title": "<p>Designing an Interactive and Collaborative Experience in Audio Augmented Reality</p>\n",
-        "body": "<blockquote>\n<p>This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>\n</blockquote>\n",
+        "body": "<p>This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>\n",
         "links": [
             {
                 "href": "https://doi.org/10.1007/978-3-030-31908-3_20",
@@ -249,7 +301,7 @@
     {
         "id": "audio-ar",
         "title": "<p>Audio AR</p>\n",
-        "body": "<p>The second large research and prototyping project I led at BBC R&amp;D.</p>\n<p>We noticed that spatial audio, locative audio and audio AR were starting to appear as categories of . Much like our previous project on voice devices, I desigend a project which would explore the material properties of the available consumer hardware and do design research to devise UX guidelines.</p>\n<p>We produced one immersive storytelling prototype in-house and hosted a second project by two PhD students from Queen Mary&#39;s University in London which explored group and embodied interactions in an augmented audio space.</p>\n",
+        "body": "<p>The second large research and prototyping project I led at BBC R&amp;D.</p>\n<p>We noticed that spatial audio, locative audio and audio AR were starting to appear in consumer-level technology. Much like our previous project on voice devices, I initiated a project which would explore the material properties of the available consumer hardware and do design research to devise UX guidelines.</p>\n<p>We produced one immersive storytelling prototype in-house and hosted a second project by two PhD students from Queen Mary&#39;s University in London which explored group and embodied interactions in an augmented audio space.</p>\n",
         "links": [
             {
                 "href": "https://www.bbc.co.uk/rd/blog/2019-03-audio-augmented-reality-spatial-sound",
@@ -258,12 +310,15 @@
         ],
         "date": "2019-03-06",
         "categories": [
-            "work-work",
             "bbc-rd",
             "sound",
             "audio-ar",
             "ar",
-            "research"
+            "research",
+            "producer",
+            "team-lead",
+            "prototyping",
+            "greatest-hits"
         ],
         "image": {
             "src": "audio-ar.jpg"
@@ -282,8 +337,8 @@
         "date": "2018-09-01",
         "categories": [
             "talks",
-            "folklore",
-            "stories"
+            "research",
+            "greatest-hits"
         ],
         "image": {
             "src": "bump.jpg"
@@ -304,7 +359,8 @@
             "personal",
             "hardware",
             "electronics",
-            "prototype"
+            "prototyping",
+            "creative-technologist"
         ],
         "image": {
             "src": "paperclock.jpg"
@@ -328,7 +384,10 @@
             "installation",
             "exhibition",
             "language",
-            "artistic-collaborator"
+            "artistic-collaborator",
+            "creative-technologist",
+            "greatest-hits",
+            "greatest-hits"
         ],
         "image": {
             "src": "mncars.jpg"
@@ -353,10 +412,12 @@
             "exhibition",
             "language",
             "artistic-collaborator",
-            "web"
+            "web",
+            "greatest-hits",
+            "creative-technologist"
         ],
         "image": {
-            "src": "twentythree.png"
+            "src": "twentythree.jpg"
         }
     },
     {
@@ -378,16 +439,18 @@
             "amazon-echo",
             "language",
             "sound",
-            "installation"
+            "installation",
+            "creative-technologist",
+            "greatest-hits"
         ],
         "image": {
-            "src": "cloudrunner.png"
+            "src": "cloudrunner.jpg"
         }
     },
     {
         "id": "inspection",
         "title": "<p>The Inspection Chamber</p>\n",
-        "body": "<p>An interactive science fiction comedy story for Amazon Alexa and (coming soon to) Google Home in the vein of Douglas Adams, Franz Kafka and Portal, where you play a part in the action using your own voice. We’re calling it ‘conversational radio’ until we come up with something better!</p>\n",
+        "body": "<p>An original interactive comedy science fiction audio drama pilot for voice devices, made in collaboration with a leading independent radio drama producer, where you play a part in the action using your own voice.</p>\n<p>This was the first product the BBC released for Amazon Alexa, and we had lots of positive feedback from users, the industry, and in the press. </p>\n<p>I designed and led the project, did some early experience prototyping, and was its lead producer.</p>\n",
         "links": [
             {
                 "href": "https://www.bbc.co.uk/rd/blog/2017-09-voice-ui-inspection-chamber-audio-drama",
@@ -396,12 +459,15 @@
         ],
         "date": "2017-11-06",
         "categories": [
-            "work-work",
             "bbc-rd",
             "software",
+            "vui",
             "amazon-echo",
             "sound",
-            "greatest-hits"
+            "greatest-hits",
+            "prototyping",
+            "team-lead",
+            "producer"
         ],
         "image": {
             "src": "inspection.jpg"
@@ -439,11 +505,11 @@
         ],
         "date": "2017-10-10",
         "categories": [
-            "work-work",
             "bbc-rd",
             "talks",
             "amazon-echo",
-            "sound"
+            "sound",
+            "greatest-hits"
         ],
         "image": {
             "src": "miz.jpg"
@@ -490,7 +556,7 @@
             "events"
         ],
         "image": {
-            "src": "haunted.png"
+            "src": "haunted.jpg"
         }
     },
     {
@@ -505,14 +571,14 @@
         ],
         "date": "2016-11-04",
         "categories": [
-            "work-work",
             "bbc-rd",
             "sound",
             "voice",
             "vui",
             "research",
             "prototyping",
-            "software"
+            "software",
+            "greatest-hits"
         ]
     },
     {
@@ -532,6 +598,24 @@
         ]
     },
     {
+        "id": "bbcrd",
+        "title": "<p>BBC Research &amp; Development</p>\n",
+        "body": "<p>I initially joined BBC R&amp;D as a freelance creative techologist, working on experience prototypes for a content analysis, discovery, and recommendation system. I liked it so much I stayed, and have worked as a technologist, producer, and researcher since joining full-time in 2016.</p>\n<p>Highlights have included designing and leading a <a href=\"#talking-machines\">discovery and prototyping project on voice interfaces</a>, a <a href=\"#audio-ar\">follow-up on audio AR</a>, becoming <a href=\"#browsing\">a published author</a>, and <a href=\"#projections\">recent work on futures and foresight</a>.</p>\n",
+        "links": [
+            {
+                "href": "https://www.codemasters.com/",
+                "linkText": "BBC Research & Development"
+            }
+        ],
+        "date": "2016-03-07",
+        "categories": [
+            "work-work",
+            "job",
+            "research",
+            "prototyping"
+        ]
+    },
+    {
         "id": "body",
         "title": "<p>The Body</p>\n",
         "body": "<p>In December 2014, working with Tim Burrell-Saward as ELK, we helped renowned experimental theatre duo Nigel Barrett and Louise Mari to win the The Oxford Samuel Beckett Theatre Trust Award for &quot;The Body&quot;: an intimate, immersive theatrical performance.</p>\n<p>We were tasked with peppering the performance with discreet technologies designed to help stimulate senses and provoke responses from the unaware audience. These technologies included peripheral vision LED screens, sub-bass chairs, live heart-rate-to-sound conversion and projection mapping.</p>\n<p>In November 2015 the concept was developed into a breathtaking full performance which enjoyed a sold-out run at the Barbican in London and was described by The Guardian as &quot;a seat-shaking, soul-searching techno-futurist experience&quot;.</p>\n",
@@ -543,14 +627,17 @@
         ],
         "date": "2015-11-22",
         "categories": [
-            "work-work",
             "freelance",
             "hardware",
             "electronics",
             "software",
             "installation",
             "immersive-theatre",
-            "prototyping"
+            "prototyping",
+            "greatest-hits",
+            "creative-technologist",
+            "greatest-hits",
+            "research"
         ],
         "image": {
             "src": "body.jpg"
@@ -573,7 +660,11 @@
             "web",
             "product",
             "print",
-            "service"
+            "service",
+            "art",
+            "greatest-hits",
+            "creative-technologist",
+            "greatest-hits"
         ],
         "image": {
             "src": "pastcards.jpg"
@@ -611,10 +702,12 @@
         "date": "2014-10-24",
         "categories": [
             "talks",
-            "sound"
+            "sound",
+            "events",
+            "greatest-hits"
         ],
         "image": {
-            "src": "playful.png"
+            "src": "playful.jpg"
         }
     },
     {
@@ -634,7 +727,8 @@
             "software",
             "bots",
             "installation",
-            "exhibition"
+            "exhibition",
+            "greatest-hits"
         ]
     },
     {
@@ -649,13 +743,13 @@
         ],
         "date": "2013-11-30",
         "categories": [
-            "work-work",
             "hardware",
             "electronics",
             "software",
             "installation",
             "elk",
-            "greatest-hits"
+            "greatest-hits",
+            "creative-technologist"
         ],
         "image": {
             "src": "throne.jpg"
@@ -675,7 +769,6 @@
         "categories": [
             "iphone",
             "creative-technologist",
-            "work-work",
             "software",
             "freelance",
             "art",
@@ -707,7 +800,7 @@
             "job"
         ],
         "image": {
-            "src": "elk.png"
+            "src": "elk.jpg"
         }
     },
     {
@@ -748,7 +841,8 @@
             "personal",
             "software",
             "bots",
-            "machine-vision"
+            "machine-vision",
+            "greatest-hits"
         ],
         "image": {
             "src": "faces.jpg"
@@ -785,7 +879,6 @@
         ],
         "date": "2012-08-24",
         "categories": [
-            "work-work",
             "freelance",
             "software",
             "bots",
@@ -800,7 +893,7 @@
     },
     {
         "id": "biophilia",
-        "title": "<p>Biophilia</p>\n",
+        "title": "<p>Björk, <em>Biophilia</em></p>\n",
         "body": "<p>Working with biomedical animator Drew Berry, I created a custom video player and interactive DNA replication music sequencer for Björk&#39;s Biophilia app album.</p>\n",
         "links": [
             {
@@ -815,7 +908,8 @@
             "creative-technologist",
             "work-work",
             "software",
-            "freelance"
+            "freelance",
+            "greatest-hits"
         ]
     },
     {
@@ -832,7 +926,6 @@
         "categories": [
             "iphone",
             "creative-technologist",
-            "work-work",
             "software",
             "freelance",
             "greatest-hits",
@@ -857,7 +950,6 @@
         "categories": [
             "flash",
             "games",
-            "work-work",
             "creative-technologist",
             "software",
             "greatest-hits",
@@ -869,6 +961,19 @@
         }
     },
     {
+        "id": "preloaded",
+        "title": "<p>Preloaded</p>\n",
+        "body": "<p>My second London agency job. </p>\n<p>After leaving Preloaded in 2008, I went <a href=\"#tag-freelance\">freelance</a> until <a href=\"#bbc-rd\">joining BBC R&amp;D in 2016</a>.</p>\n",
+        "links": [],
+        "date": "2006-09-01",
+        "categories": [
+            "flash",
+            "web",
+            "work-work",
+            "job"
+        ]
+    },
+    {
         "id": "tonic",
         "title": "<p>Tonic</p>\n",
         "body": "<p>I cut my agency teeth at Tonic, my first London job. Most of my work was producing Flash microsites, and I quickly progressed through projects of increasing ambitiousness and scope. It was here that I learned to produce high-quality work under agency deadlines and when I really started to learn the craft of creative development.</p>\n",
@@ -877,7 +982,6 @@
         "categories": [
             "flash",
             "web",
-            "work-work",
             "job"
         ]
     },
@@ -895,12 +999,11 @@
         "categories": [
             "flash",
             "web",
-            "work-work",
             "games",
             "job"
         ],
         "image": {
-            "src": "codemasters.png"
+            "src": "codemasters.jpg"
         }
     }
 ]

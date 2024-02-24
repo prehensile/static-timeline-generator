@@ -1,5 +1,5 @@
 ---
-categories: [art,personal,software,bots,installation,exhibition,machine-vision,events]
+categories: [art,software,bots,installation,exhibition,machine-vision,events]
 date: 2017-04-23 17:00:00
 ---
 
