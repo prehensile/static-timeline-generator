@@ -38,7 +38,7 @@
     <section>
         <header class="timeline-filter">
           <div class="timeline-filter-inner">
-            <h1>Henry Cooke</h1>
+            <h1 id="header-home">Henry Cooke</h1>
             <p>Creative technologist, team lead, digital producer, researcher.</p>
             <div class="category-wrapper">
               <label for="category-selector">Filter:</label>
@@ -48,114 +48,90 @@
                 <option value="_random">🎲 Random</option>
                 <option value="divider" disabled>──────────</option>
                 
-                  <option class="category-job" value="job">job</option>
-                  
-                  <option class="category-talk" value="talks">talks</option>
-                  
-                  <option class="category-publications" value="publications">publications</option>
-                  
                   <option class="category-intro" value="introduction">introduction</option>
-                  
-                  <option value="divider" disabled>──────────</option>
-              <!-- <optgroup label="──────────"> -->
                 
-                <option value="agant">agant</option>
+                  <option class="category-job" value="job">job</option>
                 
-                <option value="amazon-echo">amazon-echo</option>
+                  <option class="category-publications" value="publications">publications</option>
                 
-                <option value="ar">ar</option>
+                  <option class="category-talk" value="talks">talks</option>
                 
-                <option value="art">art</option>
+                <option value="divider" disabled>──────────</option>
                 
-                <option value="artistic-collaborator">artistic-collaborator</option>
+                  <option value="creative-technologist">creative-technologist</option>
                 
-                <option value="audio-ar">audio-ar</option>
+                  <option value="team-lead">team-lead</option>
                 
-                <option value="bbc-rd">bbc-rd</option>
+                  <option value="producer">producer</option>
                 
-                <option value="bots">bots</option>
+                  <option value="research">research</option>
                 
-                <option value="creative-technologist">creative-technologist</option>
+                <option value="divider" disabled>──────────</option>
                 
-                <option value="electronics">electronics</option>
+                    <option value="amazon-echo">amazon-echo</option>
                 
-                <option value="elk">elk</option>
+                    <option value="ar">ar</option>
                 
-                <option value="events">events</option>
+                    <option value="art">art</option>
                 
-                <option value="exhibition">exhibition</option>
+                    <option value="artistic-collaborator">artistic-collaborator</option>
                 
-                <option value="faber">faber</option>
+                    <option value="audio-ar">audio-ar</option>
                 
-                <option value="flash">flash</option>
+                    <option value="bbc-rd">bbc-rd</option>
                 
-                <option value="foresight">foresight</option>
+                    <option value="bots">bots</option>
                 
-                <option value="freelance">freelance</option>
+                    <option value="electronics">electronics</option>
                 
-                <option value="games">games</option>
+                    <option value="elk">elk</option>
                 
-                <option value="greatest-hits">greatest-hits</option>
+                    <option value="events">events</option>
                 
-                <option value="hacking">hacking</option>
+                    <option value="exhibition">exhibition</option>
                 
-                <option value="hardware">hardware</option>
+                    <option value="flash">flash</option>
                 
-                <option value="immersive-theatre">immersive-theatre</option>
+                    <option value="freelance">freelance</option>
                 
-                <option value="installation">installation</option>
+                    <option value="games">games</option>
                 
-                <option value="introduction">introduction</option>
+                    <option value="greatest-hits">greatest-hits</option>
                 
-                <option value="iphone">iphone</option>
+                    <option value="hardware">hardware</option>
                 
-                <option value="job">job</option>
+                    <option value="immersive-theatre">immersive-theatre</option>
                 
-                <option value="langauge">langauge</option>
+                    <option value="installation">installation</option>
                 
-                <option value="language">language</option>
+                    <option value="introduction">introduction</option>
                 
-                <option value="machine-vision">machine-vision</option>
+                    <option value="iphone">iphone</option>
                 
-                <option value="personal">personal</option>
+                    <option value="job">job</option>
                 
-                <option value="preloaded">preloaded</option>
+                    <option value="language">language</option>
                 
-                <option value="print">print</option>
+                    <option value="machine-vision">machine-vision</option>
                 
-                <option value="producer">producer</option>
+                    <option value="preloaded">preloaded</option>
                 
-                <option value="product">product</option>
+                    <option value="prototyping">prototyping</option>
                 
-                <option value="prototyping">prototyping</option>
+                    <option value="publications">publications</option>
                 
-                <option value="publications">publications</option>
+                    <option value="software">software</option>
                 
-                <option value="research">research</option>
+                    <option value="sound">sound</option>
                 
-                <option value="science-museum">science-museum</option>
+                    <option value="talks">talks</option>
                 
-                <option value="service">service</option>
+                    <option value="voice">voice</option>
                 
-                <option value="software">software</option>
+                    <option value="vui">vui</option>
                 
-                <option value="sound">sound</option>
+                    <option value="web">web</option>
                 
-                <option value="talks">talks</option>
-                
-                <option value="team-lead">team-lead</option>
-                
-                <option value="ux">ux</option>
-                
-                <option value="voice">voice</option>
-                
-                <option value="vui">vui</option>
-                
-                <option value="web">web</option>
-                
-                <option value="work-work">work-work</option>
-                
-              <!-- </optgroup> -->
               </select>
           </div>
         </header>
@@ -202,7 +178,7 @@
         
         <div
           class="timeline-entry "
-          data-category="events,art,personal"
+          data-category="events,art"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -246,8 +222,6 @@
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
               </p>
               
           </div>
@@ -255,7 +229,7 @@
         
         <div
           class="timeline-entry category-publications"
-          data-category="publications,foresight,work-work,research,bbc-rd,greatest-hits"
+          data-category="publications,research,bbc-rd,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -298,10 +272,6 @@
                 
                 <a href="#" class="category-link category-publications" data-category="publications">#publications</a>
                 
-                <a href="#" class="category-link " data-category="foresight">#foresight</a>
-                
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
-                
                 <a href="#" class="category-link " data-category="research">#research</a>
                 
                 <a href="#" class="category-link " data-category="bbc-rd">#bbc-rd</a>
@@ -315,7 +285,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,hacking,personal,team-lead,greatest-hits,events"
+          data-category="art,team-lead,greatest-hits,events"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -355,10 +325,6 @@
               <p>
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
-                
-                <a href="#" class="category-link " data-category="hacking">#hacking</a>
-                
-                <a href="#" class="category-link " data-category="personal">#personal</a>
                 
                 <a href="#" class="category-link " data-category="team-lead">#team-lead</a>
                 
@@ -429,7 +395,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,artistic-collaborator,personal,software,exhibition,installation,creative-technologist,greatest-hits"
+          data-category="art,artistic-collaborator,software,exhibition,installation,creative-technologist,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -474,8 +440,6 @@
                 
                 <a href="#" class="category-link " data-category="artistic-collaborator">#artistic-collaborator</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="exhibition">#exhibition</a>
@@ -493,7 +457,7 @@
         
         <div
           class="timeline-entry "
-          data-category="work-work,bbc-rd,research,art,greatest-hits"
+          data-category="bbc-rd,research,art,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -533,8 +497,6 @@
              
               <p>
                 
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
-                
                 <a href="#" class="category-link " data-category="bbc-rd">#bbc-rd</a>
                 
                 <a href="#" class="category-link " data-category="research">#research</a>
@@ -550,7 +512,7 @@
         
         <div
           class="timeline-entry category-publications"
-          data-category="work-work,bbc-rd,sound,audio-ar,ar,research,publications"
+          data-category="bbc-rd,sound,audio-ar,ar,research,publications"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -569,14 +531,11 @@
             </h2>
             
             <!--  -->
-            
-            <p>
-               <blockquote>
+             <p><em>Nagele, A. et al. (2021)</em></p>
+<blockquote>
 <p>This study examines how audio human-computer interaction can prompt and support actions, and how audio AR can contribute to developing new kinds of interactions in participatory performance. It draws from aspects of multi-player audio-only games and interactive storytelling. A user experience study of the performance shows that people are engaged with interactive content and interact and navigate within the spatial audio content using their whole body. The performative aspect was well-received and participants took on roles and responsibilities within their group during the experience.</p>
 </blockquote>
- 
-            </p>
-             
+  
             <ul>
               
               <li>
@@ -586,8 +545,6 @@
             </ul>
              
               <p>
-                
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
                 
                 <a href="#" class="category-link " data-category="bbc-rd">#bbc-rd</a>
                 
@@ -600,55 +557,6 @@
                 <a href="#" class="category-link " data-category="research">#research</a>
                 
                 <a href="#" class="category-link category-publications" data-category="publications">#publications</a>
-                
-              </p>
-              
-          </div>
-        </div>
-        
-        <div
-          class="timeline-entry category-publications"
-          data-category="publications,research,sound,ar,audio-ar"
-          aria-hidden="false"
-        >
-          <!-- <div class="timeline-icon grey" title=""> -->
-          <div class="timeline-icon" title="">
-            
-          </div>
-          <div class="timeline-description">
-            <span class="timestamp"
-              ><time datetime="2020-12-24"
-                >December 24, 2020</time
-              ></span
-            >
-            <h2>
-              <a id="aar-collaborative" href="#aar-collaborative"><i class="fas fa-link"></i></a><p>Designing an Interactive and Collaborative Experience in Audio Augmented Reality</p>
-
-            </h2>
-            
-            <!--  -->
-             <p><em>Bauer, V. et al. (2019)</em></p>
-<p>Audio Augmented Reality (AAR) consists of adding spatial audio entities into the real environment. Existing mobile applications and technologies open questions around interactive and collaborative AAR. This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>
-  
-            <ul>
-              
-              <li>
-                <a class="entry-link" href="https://link.springer.com/chapter/10.1007/978-3-030-31908-3_20#citeas" target="_blank">Designing an Interactive and Collaborative Experience in Audio Augmented Reality | SpringerLink</a>
-              </li>
-              
-            </ul>
-             
-              <p>
-                
-                <a href="#" class="category-link category-publications" data-category="publications">#publications</a>
-                
-                <a href="#" class="category-link " data-category="research">#research</a>
-                
-                <a href="#" class="category-link " data-category="sound">#sound</a>
-                
-                <a href="#" class="category-link " data-category="ar">#ar</a>
-                
-                <a href="#" class="category-link " data-category="audio-ar">#audio-ar</a>
                 
               </p>
               
@@ -698,60 +606,6 @@
                 <a href="#" class="category-link " data-category="research">#research</a>
                 
                 <a href="#" class="category-link " data-category="greatest-hits">#greatest-hits</a>
-                
-              </p>
-              
-          </div>
-        </div>
-        
-        <div
-          class="timeline-entry "
-          data-category="art,hacking,personal,hardware,sound,electronics,prototyping,creative-technologist"
-          aria-hidden="false"
-        >
-          <!-- <div class="timeline-icon grey" title=""> -->
-          <div class="timeline-icon" title="">
-            
-          </div>
-          <div class="timeline-description">
-            <span class="timestamp"
-              ><time datetime="2020-08-20"
-                >August 20, 2020</time
-              ></span
-            >
-            <h2>
-              <a id="singing" href="#singing"><i class="fas fa-link"></i></a><p>Singing Machines prototype</p>
-
-            </h2>
-            
-            <!--  -->
-             <p>A lockdown project - a physical sketch for an audio device which listens for others like it in its vicinity. If it hears any, it &#39;sings&#39; back to them.</p>
-  
-            <ul>
-              
-              <li>
-                <a class="entry-link" href="https://vimeo.com/449757242" target="_blank">singing machines wip on Vimeo</a>
-              </li>
-              
-            </ul>
-             
-              <p>
-                
-                <a href="#" class="category-link " data-category="art">#art</a>
-                
-                <a href="#" class="category-link " data-category="hacking">#hacking</a>
-                
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
-                <a href="#" class="category-link " data-category="hardware">#hardware</a>
-                
-                <a href="#" class="category-link " data-category="sound">#sound</a>
-                
-                <a href="#" class="category-link " data-category="electronics">#electronics</a>
-                
-                <a href="#" class="category-link " data-category="prototyping">#prototyping</a>
-                
-                <a href="#" class="category-link " data-category="creative-technologist">#creative-technologist</a>
                 
               </p>
               
@@ -825,7 +679,7 @@
         
         <div
           class="timeline-entry "
-          data-category="freelance,hardware,electronics,software,installation,immersive-theatre,prototyping,research,team-lead,greatest-hits"
+          data-category="freelance,hardware,electronics,software,installation,immersive-theatre,prototyping,research,team-lead,greatest-hits,creative-technologist"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -886,6 +740,8 @@
                 
                 <a href="#" class="category-link " data-category="greatest-hits">#greatest-hits</a>
                 
+                <a href="#" class="category-link " data-category="creative-technologist">#creative-technologist</a>
+                
               </p>
               
           </div>
@@ -893,7 +749,7 @@
         
         <div
           class="timeline-entry category-publications"
-          data-category="work-work,bbc-rd,sound,audio-ar,ar,research,publications"
+          data-category="bbc-rd,sound,audio-ar,ar,research,publications"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -912,7 +768,10 @@
             </h2>
             
             <!--  -->
-             <p>This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>
+             <p><em>Bauer, V. et al. (2019)</em></p>
+<blockquote>
+<p>This paper proposes an experiment to examine how spatial audio can prompt and support actions in interactive AAR experiences; how distinct auditory information influence collaborative tasks and group dynamics; and how gamified AAR can enhance participatory storytelling.</p>
+</blockquote>
   
             <ul>
               
@@ -923,8 +782,6 @@
             </ul>
              
               <p>
-                
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
                 
                 <a href="#" class="category-link " data-category="bbc-rd">#bbc-rd</a>
                 
@@ -1063,7 +920,7 @@
         
         <div
           class="timeline-entry "
-          data-category="personal,hardware,electronics,prototyping,creative-technologist"
+          data-category="hardware,electronics,prototyping,creative-technologist"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1102,8 +959,6 @@
              
               <p>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="hardware">#hardware</a>
                 
                 <a href="#" class="category-link " data-category="electronics">#electronics</a>
@@ -1119,7 +974,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,personal,software,installation,exhibition,language,artistic-collaborator,creative-technologist,greatest-hits,greatest-hits"
+          data-category="art,software,installation,exhibition,language,artistic-collaborator,creative-technologist,greatest-hits,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1161,8 +1016,6 @@
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="installation">#installation</a>
@@ -1186,7 +1039,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,personal,software,installation,exhibition,language,artistic-collaborator,web,greatest-hits,creative-technologist"
+          data-category="art,software,installation,exhibition,language,artistic-collaborator,web,greatest-hits,creative-technologist"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1228,8 +1081,6 @@
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="installation">#installation</a>
@@ -1253,7 +1104,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,hacking,personal,software,amazon-echo,language,sound,installation,creative-technologist,greatest-hits"
+          data-category="art,software,amazon-echo,language,sound,installation,creative-technologist,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1293,10 +1144,6 @@
               <p>
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
-                
-                <a href="#" class="category-link " data-category="hacking">#hacking</a>
-                
-                <a href="#" class="category-link " data-category="personal">#personal</a>
                 
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
@@ -1385,7 +1232,7 @@
         
         <div
           class="timeline-entry category-publications"
-          data-category="work-work,bbc-rd,vui,ux,research,publications"
+          data-category="bbc-rd,vui,research,publications"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1404,14 +1251,11 @@
             </h2>
             
             <!--  -->
-            
-            <p>
-               <blockquote>
+             <p><em>Cooke, H. et al. (2017).</em></p>
+<blockquote>
 <p>Voice User Interfaces (VUI) and consumer products such as Amazon Echo and Google Home are rapidly gaining popularity and are already being used as media devices in the home. The relative novelty of this class of interface means that there is little existing literature describing UX for VUI. This paper describes a methodology we are developing to address this lack of literature, followed by some design principles we have discovered during our work on prototype VUIs.</p>
 </blockquote>
- 
-            </p>
-             
+  
             <ul>
               
               <li>
@@ -1422,13 +1266,9 @@
              
               <p>
                 
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
-                
                 <a href="#" class="category-link " data-category="bbc-rd">#bbc-rd</a>
                 
                 <a href="#" class="category-link " data-category="vui">#vui</a>
-                
-                <a href="#" class="category-link " data-category="ux">#ux</a>
                 
                 <a href="#" class="category-link " data-category="research">#research</a>
                 
@@ -1497,7 +1337,7 @@
         
         <div
           class="timeline-entry category-publications"
-          data-category="work-work,bbc-rd,research,publications,prototyping"
+          data-category="bbc-rd,research,publications,prototyping"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1516,14 +1356,11 @@
             </h2>
             
             <!--  -->
-            
-            <p>
-               <blockquote>
+             <p><em>Miller, L. et al. (2017)</em></p>
+<blockquote>
 <p>We have developed nine speculative (&quot;half-resolution&quot;) prototypes as part of our project to explore future possibilities for television experiences as widely as possible. The prototypes are physical representations of our research into why people watch television and what they like and dislike about it. Their physicality improves engagement and quality of feedback, at low cost.</p>
 </blockquote>
- 
-            </p>
-             
+  
             <ul>
               
               <li>
@@ -1533,8 +1370,6 @@
             </ul>
              
               <p>
-                
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
                 
                 <a href="#" class="category-link " data-category="bbc-rd">#bbc-rd</a>
                 
@@ -1551,7 +1386,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,personal,software,bots,installation,exhibition,machine-vision,events"
+          data-category="art,software,bots,installation,exhibition,machine-vision,events"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1592,8 +1427,6 @@
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="bots">#bots</a>
@@ -1613,7 +1446,7 @@
         
         <div
           class="timeline-entry "
-          data-category="bbc-rd,sound,voice,vui,research,prototyping,software,greatest-hits"
+          data-category="bbc-rd,sound,voice,vui,research,prototyping,software,greatest-hits,producer,team-lead"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1662,6 +1495,10 @@
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="greatest-hits">#greatest-hits</a>
+                
+                <a href="#" class="category-link " data-category="producer">#producer</a>
+                
+                <a href="#" class="category-link " data-category="team-lead">#team-lead</a>
                 
               </p>
               
@@ -1712,7 +1549,7 @@
         
         <div
           class="timeline-entry category-job"
-          data-category="work-work,job,research,prototyping"
+          data-category="job,research,prototyping"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1743,8 +1580,6 @@
             </ul>
              
               <p>
-                
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
                 
                 <a href="#" class="category-link category-job" data-category="job">#job</a>
                 
@@ -1829,7 +1664,7 @@
         
         <div
           class="timeline-entry "
-          data-category="personal,software,web,product,print,service,art,greatest-hits,creative-technologist,greatest-hits"
+          data-category="software,web,art,greatest-hits,creative-technologist,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1869,17 +1704,9 @@
              
               <p>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="web">#web</a>
-                
-                <a href="#" class="category-link " data-category="product">#product</a>
-                
-                <a href="#" class="category-link " data-category="print">#print</a>
-                
-                <a href="#" class="category-link " data-category="service">#service</a>
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
@@ -1896,7 +1723,7 @@
         
         <div
           class="timeline-entry category-talk"
-          data-category="talks,sound"
+          data-category="talks,sound,elk"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -1938,6 +1765,8 @@
                 <a href="#" class="category-link category-talk" data-category="talks">#talks</a>
                 
                 <a href="#" class="category-link " data-category="sound">#sound</a>
+                
+                <a href="#" class="category-link " data-category="elk">#elk</a>
                 
               </p>
               
@@ -2000,7 +1829,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,personal,software,bots,installation,exhibition,greatest-hits"
+          data-category="art,software,bots,installation,exhibition,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2018,13 +1847,21 @@
 
             </h2>
             
-            <!--  -->
-             <p>I exhibited Faces in the Cloud at The New Sublime in Brighton in September 2014. </p>
+              <img src="img/content/sublime.jpg" loading="lazy">
+            
+            <!-- 
+            <div class="captioned-image image-right">
+              
+                <img src="sublime.jpg" alt="sublime.jpg" />
+                 
+            </div>
+             -->
+             <p>I exhibited <a href="#faces">Faces in the Cloud</a> at The New Sublime in Brighton in September 2014. </p>
   
             <ul>
               
               <li>
-                <a class="entry-link" href="http://thenewsublime.fortunecatproductions.com/" target="_blank">The New Sublime</a>
+                <a class="entry-link" href="https://web.archive.org/web/20210127130127/http://thenewsublime.fortunecatproductions.com/" target="_blank">The New Sublime</a>
               </li>
               
             </ul>
@@ -2032,8 +1869,6 @@
               <p>
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
-                
-                <a href="#" class="category-link " data-category="personal">#personal</a>
                 
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
@@ -2176,7 +2011,7 @@
         
         <div
           class="timeline-entry category-job"
-          data-category="work-work,hardware,electronics,software,installation,elk,job"
+          data-category="hardware,electronics,software,installation,elk,job"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2216,8 +2051,6 @@
             </ul>
              
               <p>
-                
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
                 
                 <a href="#" class="category-link " data-category="hardware">#hardware</a>
                 
@@ -2298,7 +2131,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,personal,software,bots,machine-vision,greatest-hits"
+          data-category="art,software,bots,machine-vision,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2340,8 +2173,6 @@
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="bots">#bots</a>
@@ -2357,7 +2188,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,personal,software,bots,langauge"
+          data-category="art,software,bots,language"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2390,13 +2221,11 @@
                 
                 <a href="#" class="category-link " data-category="art">#art</a>
                 
-                <a href="#" class="category-link " data-category="personal">#personal</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="bots">#bots</a>
                 
-                <a href="#" class="category-link " data-category="langauge">#langauge</a>
+                <a href="#" class="category-link " data-category="language">#language</a>
                 
               </p>
               
@@ -2467,7 +2296,7 @@
         
         <div
           class="timeline-entry "
-          data-category="art,iphone,creative-technologist,work-work,software,freelance,greatest-hits"
+          data-category="art,iphone,creative-technologist,software,freelance,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2504,8 +2333,6 @@
                 
                 <a href="#" class="category-link " data-category="creative-technologist">#creative-technologist</a>
                 
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
-                
                 <a href="#" class="category-link " data-category="software">#software</a>
                 
                 <a href="#" class="category-link " data-category="freelance">#freelance</a>
@@ -2519,7 +2346,7 @@
         
         <div
           class="timeline-entry "
-          data-category="iphone,creative-technologist,software,freelance,greatest-hits,agant,faber"
+          data-category="iphone,creative-technologist,software,freelance,greatest-hits"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2573,10 +2400,6 @@
                 
                 <a href="#" class="category-link " data-category="greatest-hits">#greatest-hits</a>
                 
-                <a href="#" class="category-link " data-category="agant">#agant</a>
-                
-                <a href="#" class="category-link " data-category="faber">#faber</a>
-                
               </p>
               
           </div>
@@ -2584,7 +2407,7 @@
         
         <div
           class="timeline-entry "
-          data-category="flash,games,creative-technologist,software,greatest-hits,preloaded,science-museum"
+          data-category="flash,games,creative-technologist,software,greatest-hits,preloaded"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2636,8 +2459,6 @@
                 
                 <a href="#" class="category-link " data-category="preloaded">#preloaded</a>
                 
-                <a href="#" class="category-link " data-category="science-museum">#science-museum</a>
-                
               </p>
               
           </div>
@@ -2645,7 +2466,7 @@
         
         <div
           class="timeline-entry category-job"
-          data-category="flash,web,work-work,job"
+          data-category="flash,web,job,preloaded"
           aria-hidden="false"
         >
           <!-- <div class="timeline-icon grey" title=""> -->
@@ -2677,9 +2498,9 @@
                 
                 <a href="#" class="category-link " data-category="web">#web</a>
                 
-                <a href="#" class="category-link " data-category="work-work">#work-work</a>
-                
                 <a href="#" class="category-link category-job" data-category="job">#job</a>
+                
+                <a href="#" class="category-link " data-category="preloaded">#preloaded</a>
                 
               </p>
               
@@ -2786,7 +2607,7 @@
     <footer class="page-footer">
       
       <p>
-         Made by prehensile in 2023. 
+         Made by prehensile. 
       </p>
       
       <p>

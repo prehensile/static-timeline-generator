@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const header = 'Making things with computers since 2000.';
-const footer = 'Made by prehensile in 2023.'
+const footer = 'Made by prehensile.'
 const entries = JSON.parse( fs.readFileSync("./src/_data/entries.json") );
 
 // Page details
