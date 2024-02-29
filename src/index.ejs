@@ -1,9 +1,10 @@
 <%
+/* this stuff is to colour-code broad top-level categories */
 const _categoryClasses = {
+  "introduction" : "category-intro",
   "job" : "category-job",
-  "talks" : "category-talk",
   "publications" : "category-publications",
-  "introduction" : "category-intro"
+  "talks" : "category-talk"
 }
 classForCategory = function( cat ){
   if( _categoryClasses.hasOwnProperty(cat) ){
@@ -18,6 +19,13 @@ classForCategories = function(categories) {
   }
   return ""
 }
+/* and this is used to hoist hero categories to the top of the list */
+const _heroCategories = [
+  "creative-technologist",
+  "team-lead",
+  "producer",
+  "research"
+]
 %>
 
 <!DOCTYPE html>
@@ -29,7 +37,7 @@ classForCategories = function(categories) {
     <section>
         <header class="timeline-filter">
           <div class="timeline-filter-inner">
-            <h1>Henry Cooke</h1>
+            <h1 id="header-home">Henry Cooke</h1>
             <p>Creative technologist, team lead, digital producer, researcher.</p>
             <div class="category-wrapper">
               <label for="category-selector">Filter:</label>
@@ -40,13 +48,16 @@ classForCategories = function(categories) {
                 <option value="divider" disabled>──────────</option>
                 <% for(const cat in _categoryClasses){ %>
                   <option class="<%= _categoryClasses[cat] %>" value="<%= cat %>"><%= cat  %></option>
-                  <% }; %>
-                  <option value="divider" disabled>──────────</option>
-              <!-- <optgroup label="──────────"> -->
-                <% content.filters.forEach(function(filter){ %>
-                <option value="<%= filter %>"><%= filter %></option>
-                <% }); %>
-              <!-- </optgroup> -->
+                <% }; %>
+                <option value="divider" disabled>──────────</option>
+                <% for(const cat of _heroCategories){ %>
+                  <option value="<%= cat %>"><%= cat  %></option>
+                <% }; %>
+                <option value="divider" disabled>──────────</option>
+                <% content.filters.forEach(function(filter){
+                  if( !_heroCategories.includes(filter) ){ %>
+                    <option value="<%= filter %>"><%= filter %></option>
+                <% } }); %>
               </select>
           </div>
         </header>
