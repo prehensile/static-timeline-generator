@@ -5,6 +5,6 @@ date: 2014-09-05 13:00:00
 
 # The New Sublime
 
-I exhibited Faces in the Cloud at The New Sublime in Brighton in September 2014. 
+I exhibited [Faces in the Cloud](#faces) at The New Sublime in Brighton in September 2014. 
 
-[The New Sublime](http://thenewsublime.fortunecatproductions.com/)
+[The New Sublime](https://web.archive.org/web/20210127130127/http://thenewsublime.fortunecatproductions.com/)
