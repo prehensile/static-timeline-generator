@@ -139,6 +139,11 @@ function onHeaderClick(){
   scrollToTop();
 }
 
+function onHomeClick(){
+  selectCategory( "_all" );
+  showAllEntries();
+}
+
 function selectRandomCategory(){
   const categories = getCategories();
   const category = categories[Math.floor(Math.random()*categories.length)];
@@ -160,6 +165,8 @@ function onload() {
   document.querySelectorAll('.timeline-description a').forEach((a)=>{
     a.addEventListener('click', onDescriptionLinkClick);
   });
+
+  document.querySelector('#header-home').addEventListener('click', onHomeClick);
 
   /* Flow entries */
   reflowEntries();
