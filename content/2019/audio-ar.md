@@ -1,5 +1,5 @@
 ---
-categories: [bbc-rd,sound,audio-ar,ar,research,producer,team-lead,prototyping,greatest-hits] 
+categories: [bbc-rd,sound,audio-ar,ar,research,producer,team-lead,prototyping,greatest-hits,immersive] 
 date: 2019-03-06
 ---
 

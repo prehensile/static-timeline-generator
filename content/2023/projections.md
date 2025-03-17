@@ -1,5 +1,5 @@
 ---
-categories: [publications,research,bbc-rd,greatest-hits]
+categories: [publications,research,bbc-rd,greatest-hits,foresight,strategy]
 date: 2023-09-22
 ---
 

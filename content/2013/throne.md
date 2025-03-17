@@ -1,5 +1,5 @@
 ---
-categories: [hardware,electronics,software,installation,elk,greatest-hits,creative-technologist] 
+categories: [hardware,electronics,software,installation,elk,greatest-hits,creative-technologist,immersive] 
 date: 2013-11-30
 ---
 

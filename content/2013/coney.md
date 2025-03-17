@@ -1,5 +1,5 @@
 ---
-categories: [software,immersive-theatre,prototyping,art,greatest-hits] 
+categories: [software,immersive,prototyping,art,greatest-hits] 
 date: 2013-07-10
 ---
 

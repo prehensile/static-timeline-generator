@@ -1,5 +1,5 @@
 ---
-categories: [bbc-rd,sound,audio-ar,ar,prototyping,team-lead,producer,creative-technologist,greatest-hits] 
+categories: [bbc-rd,sound,audio-ar,ar,prototyping,team-lead,producer,creative-technologist,greatest-hits,immersive] 
 date: 2020-08-20
 ---
 
