@@ -86,6 +86,21 @@ function readMarkdownFile( filePath ){
     return( entry );
 }
 
+function countCategories( entries ){
+    let counts = {};
+    for( const entry of entries ){
+        for( const cat of entry.categories ){
+            if( counts[cat] ){
+                counts[cat]++
+            }
+            else {
+                counts[cat] = 1
+            }
+        }
+    }
+    console.log( counts );
+}
+
 function generateContentFile( pthContentFiles, pthOutputJson ){
 
     const entries = [];
@@ -100,6 +115,8 @@ function generateContentFile( pthContentFiles, pthOutputJson ){
 
     // reverse-sort entries by date
     entries.sort( (a,b) => b.date.localeCompare(a.date) );
+    
+    countCategories( entries );
 
     console.log( `Writing entries to ${pthOutputJson}...`)
     fs.writeFileSync(

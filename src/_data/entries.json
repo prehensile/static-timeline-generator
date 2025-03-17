@@ -4,15 +4,58 @@
         "title": "<p>Welcome</p>\n",
         "body": "<p>This is a timeline of selected projects, jobs, and other things I&#39;ve done with computers <a href=\"#codemasters\">since the year 2000</a>. It&#39;s intended to give an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
         "links": [],
-        "date": "2024-01-01",
+        "date": "2025-03-01",
         "categories": [
             "introduction"
         ]
     },
     {
+        "id": "foom",
+        "title": "<p>Foom: A Strategic Simulation</p>\n",
+        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of artificial intelligence (AI) and its societal impact. It&#39;s part foresight workshop, part immersive theatre show.</p>\n<p>I&#39;m building software to run the show across tablet interfaces for participants, live ambient news displays, and the showrunning backend. I&#39;m also helping to shape the experience and game design. </p>\n",
+        "links": [
+            {
+                "href": "https://foom.live",
+                "linkText": "Foom: A Strategic Simulation"
+            }
+        ],
+        "date": "2025-01-27",
+        "categories": [
+            "immersive",
+            "foresight",
+            "strategy",
+            "ai",
+            "creative-technologist"
+        ],
+        "image": {
+            "src": "foom.jpg"
+        }
+    },
+    {
+        "id": "tldr",
+        "title": "<p>tl;dr: using LLMs as research tools</p>\n",
+        "body": "<p>In early 2024, my team and I at BBC R&amp;D spent some time building research tools powered by large language models. We wanted to find out if they could help with our work analysing research interviews, and in a project we had exploring trend analysis and collective intelligence.</p>\n<p>We found that they were <em>really</em> useful for some use cases, especially summarising and tagging material, but we had to develop some pretty elaborate strategies to prevent them from hallucinating data which didn&#39;t exist. Not ideal in a research context!</p>\n",
+        "links": [
+            {
+                "href": "https://www.bbc.co.uk/rd/articles/2024-06-mitigating-llm-hallucinations-in-text-summarisation",
+                "linkText": "Mitigating LLM hallucinations in text summarisation"
+            }
+        ],
+        "date": "2024-06-20",
+        "categories": [
+            "machine-learning",
+            "llm",
+            "ai",
+            "bbc-rd",
+            "producer",
+            "creative-technologist",
+            "research"
+        ]
+    },
+    {
         "id": "dorkbot",
         "title": "<p>Dorkbot Manchester</p>\n",
-        "body": "<p>Working with artist <a href=\"https://antonyhall.net/blog/\">Anthony Hall</a>, I restarted Dorkbot Manchester in 2024.</p>\n<p>Dorkbot is an international group of meetups for artists, engineers, designers, scientists, inventors, and anyone else working under the broad umbrella of electronic art. Dorkbot meetings aim to nurture a local electronic arts community and to encourage people to talk about the work they&#39;re doing, and to foster discussion about that work in a friendly, supportive, informal atmosphere.</p>\n",
+        "body": "<p>Working with artist <a href=\"https://antonyhall.net/blog/\">Anthony Hall</a>, I restarted Dorkbot Manchester in 2023.</p>\n<p>Dorkbot is an international group of meetups for artists, engineers, designers, scientists, inventors, and anyone else working under the broad umbrella of electronic art. Dorkbot meetings aim to nurture a local electronic arts community and to encourage people to talk about the work they&#39;re doing, and to foster discussion about that work in a friendly, supportive, informal atmosphere.</p>\n",
         "links": [
             {
                 "href": "http://dorkbotmcr.org/",
@@ -43,7 +86,9 @@
             "publications",
             "research",
             "bbc-rd",
-            "greatest-hits"
+            "greatest-hits",
+            "foresight",
+            "strategy"
         ],
         "image": {
             "src": "projections.jpg"
@@ -195,7 +240,8 @@
             "team-lead",
             "producer",
             "creative-technologist",
-            "greatest-hits"
+            "greatest-hits",
+            "immersive"
         ],
         "image": {
             "src": "nigel.jpg"
@@ -218,7 +264,7 @@
             "electronics",
             "software",
             "installation",
-            "immersive-theatre",
+            "immersive",
             "prototyping",
             "research",
             "team-lead",
@@ -269,7 +315,8 @@
             "producer",
             "team-lead",
             "prototyping",
-            "greatest-hits"
+            "greatest-hits",
+            "immersive"
         ],
         "image": {
             "src": "audio-ar.jpg"
@@ -413,7 +460,8 @@
             "greatest-hits",
             "prototyping",
             "team-lead",
-            "producer"
+            "producer",
+            "immersive"
         ],
         "image": {
             "src": "inspection.jpg"
@@ -480,7 +528,7 @@
     {
         "id": "haunted",
         "title": "<p>Haunted Random Forest</p>\n",
-        "body": "<p>I exhibited Faces in the Cloud at Haunted Random Forest in Brighton in April 2017. </p>\n",
+        "body": "<p>I exhibited <a href=\"#faces\">Faces in the Cloud</a> at Haunted Random Forest in Brighton in April 2017. </p>\n",
         "links": [
             {
                 "href": "https://hauntedrandomforest.tumblr.com/henry",
@@ -575,7 +623,7 @@
             "electronics",
             "software",
             "installation",
-            "immersive-theatre",
+            "immersive",
             "prototyping",
             "greatest-hits",
             "creative-technologist",
@@ -691,7 +739,8 @@
             "installation",
             "elk",
             "greatest-hits",
-            "creative-technologist"
+            "creative-technologist",
+            "immersive"
         ],
         "image": {
             "src": "throne.jpg"
@@ -757,7 +806,7 @@
         "date": "2013-07-10",
         "categories": [
             "software",
-            "immersive-theatre",
+            "immersive",
             "prototyping",
             "art",
             "greatest-hits"
