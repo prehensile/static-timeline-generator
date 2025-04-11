@@ -2,7 +2,7 @@
     {
         "id": "welcome",
         "title": "<p>Welcome</p>\n",
-        "body": "<p>This is a timeline of selected projects, jobs, and other things I&#39;ve done with computers <a href=\"#codemasters\">since the year 2000</a>. It&#39;s intended to give an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
+        "body": "<p>This is a timeline of selected projects, jobs, and other things I&#39;ve made with and around computers <a href=\"#codemasters\">since the year 2000</a>. It&#39;s intended to give an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
         "links": [],
         "date": "2025-03-01",
         "categories": [
@@ -12,7 +12,7 @@
     {
         "id": "foom",
         "title": "<p>Foom: A Strategic Simulation</p>\n",
-        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of artificial intelligence (AI) and its societal impact. It&#39;s part foresight workshop, part immersive theatre show.</p>\n<p>I&#39;m building software to run the show across tablet interfaces for participants, live ambient news displays, and the showrunning backend. I&#39;m also helping to shape the experience and game design. </p>\n",
+        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of artificial intelligence (AI) and its societal impact. It&#39;s part foresight workshop, part immersive theatre show.</p>\n<p>I&#39;m building software to run the show, from tablet interfaces for participants to live ambient news displays and the showrunning backend. I&#39;m also helping to shape the experience and game design. </p>\n",
         "links": [
             {
                 "href": "https://foom.live",
@@ -34,7 +34,7 @@
     {
         "id": "tldr",
         "title": "<p>tl;dr: using LLMs as research tools</p>\n",
-        "body": "<p>In early 2024, my team and I at BBC R&amp;D spent some time building research tools powered by large language models. We wanted to find out if they could help with our work analysing research interviews, and in a project we had exploring trend analysis and collective intelligence.</p>\n<p>We found that they were <em>really</em> useful for some use cases, especially summarising and tagging material, but we had to develop some pretty elaborate strategies to prevent them from hallucinating data which didn&#39;t exist. Not ideal in a research context!</p>\n",
+        "body": "<p>In early 2024, my team and I at BBC R&amp;D spent some time building research tools powered by large language models. We wanted to find out if they could help with analysis of research interviews, and in a project we had exploring trend analysis and collective intelligence.</p>\n<p>We found that they were <em>really</em> useful for some use cases, especially summarising and tagging text material. However, we had to develop some pretty elaborate strategies to prevent them from hallucinating data which didn&#39;t exist. Not ideal in a research context!</p>\n",
         "links": [
             {
                 "href": "https://www.bbc.co.uk/rd/articles/2024-06-mitigating-llm-hallucinations-in-text-summarisation",
@@ -592,7 +592,7 @@
     {
         "id": "bbcrd",
         "title": "<p>BBC Research &amp; Development</p>\n",
-        "body": "<p>I initially joined BBC R&amp;D as a freelance creative techologist, working on experience prototypes for a content analysis, discovery, and recommendation system. I liked it so much I stayed, and have worked as a technologist, producer, and researcher since joining full-time in 2016.</p>\n<p>Highlights have included designing and leading a <a href=\"#talking-machines\">discovery and prototyping project on voice interfaces</a>, a <a href=\"#audio-ar\">follow-up on audio AR</a>, becoming <a href=\"#browsing\">a published author</a>, and <a href=\"#projections\">recent work on futures and foresight</a>.</p>\n",
+        "body": "<p>I initially joined BBC R&amp;D as a freelance creative techologist, working on experience prototypes for a content analysis, discovery, and recommendation system. I liked it so much I stayed, and joined full-time in 2016, working as a technologist, producer, and researcher. I pivoted to foresight research in my last few years there, and left at the end of 2024. </p>\n<p>Highlights included designing and leading a <a href=\"#talking-machines\">discovery and prototyping project on voice interfaces</a>, a <a href=\"#audio-ar\">follow-up on audio AR</a>, becoming <a href=\"#browsing\">a published author</a>, and <a href=\"#projections\">leading our first futures and foresight reports</a>.</p>\n",
         "links": [
             {
                 "href": "https://www.codemasters.com/",
