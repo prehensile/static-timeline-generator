@@ -110,16 +110,28 @@ function onCategorySelectorChange(){
     selectRandomCategory();
   } else {
     updatePageForFilters( selectedValues );
+    updateHistoryForCategory( selectedValues[0] );
   }
+}
+
+function updateHistoryForCategory( category ){
+  const url = new URL( window.location );
+  url.search = "";
+  if( category && !category.includes("_") ){
+    url.searchParams.set( "category", category );
+  }
+  history.pushState( {}, "", url );
 }
 
 function selectCategory( category ){
   // select option in filter dropdown
   document.querySelector('#category-selector').value = category;
   updatePageForFilters([category]);
+  updateHistoryForCategory( category );
 }
 
 function onCategoryLinkClick( e ){
+  e.preventDefault();
   selectCategory( e.target.dataset.category );
 }
 
@@ -128,6 +140,7 @@ function getCategories(){
 }
 
 function onDescriptionLinkClick( e ){
+  e.preventDefault();
   const href = e.target.href;
   // catch links to categories
   if( !href.includes('#') ) return;
@@ -150,6 +163,14 @@ function selectRandomCategory(){
   selectCategory( category );
 }
 
+function setCategoryFromLocation(){
+  const params = new URLSearchParams( document.location.search );
+  const cat = params.get("category");
+  if( cat ){
+    selectCategory( cat );
+  }
+}
+
 function onload() {
   /* We have JS! */
   var root = document.documentElement;
@@ -170,6 +191,8 @@ function onload() {
 
   /* Flow entries */
   reflowEntries();
+
+  setCategoryFromLocation();
 
   // Clean up
   document.removeEventListener('DOMContentLoaded', onload);
