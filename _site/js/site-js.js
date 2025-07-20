@@ -115,12 +115,11 @@ function onCategorySelectorChange(){
 }
 
 function updateHistoryForCategory( category ){
-  const url = new URL( window.location );
-  url.search = "";
   if( category && !category.includes("_") ){
-    url.searchParams.set( "category", category );
+    window.location.hash = category;
+  } else {
+    history.pushState( {}, "", window.location.pathname + window.location.search );
   }
-  history.pushState( {}, "", url );
 }
 
 function selectCategory( category ){
@@ -164,10 +163,33 @@ function selectRandomCategory(){
 }
 
 function setCategoryFromLocation(){
-  const params = new URLSearchParams( document.location.search );
-  const cat = params.get("category");
-  if( cat ){
-    selectCategory( cat );
+  const hash = window.location.hash.slice(1);
+  if( hash && getCategories().includes(hash) ){
+    selectCategory( hash );
+  }
+}
+
+function onHashChange() {
+  setCategoryFromLocation();
+}
+
+function updateWelcomeDate() {
+  var welcomeEntry = document.querySelector('#welcome');
+  if (welcomeEntry) {
+    var timelineEntry = welcomeEntry.closest('.timeline-entry');
+    var timeElement = timelineEntry.querySelector('time');
+    if (timeElement) {
+      var now = new Date();
+      var dateString = now.toISOString().split('T')[0];
+      var displayDate = now.toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+      });
+      
+      timeElement.setAttribute('datetime', dateString);
+      timeElement.textContent = displayDate;
+    }
   }
 }
 
@@ -175,6 +197,9 @@ function onload() {
   /* We have JS! */
   var root = document.documentElement;
   root.classList.remove('no-js');
+
+  /* Update welcome message date to current date */
+  updateWelcomeDate();
 
   /* Listen for filter changes */
   document.querySelector('#category-selector').addEventListener('change', onCategorySelectorChange);
@@ -188,6 +213,9 @@ function onload() {
   });
 
   document.querySelector('#header-home').addEventListener('click', onHomeClick);
+
+  /* Listen for hash changes (back/forward navigation) */
+  window.addEventListener('hashchange', onHashChange);
 
   /* Flow entries */
   reflowEntries();

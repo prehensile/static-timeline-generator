@@ -4,7 +4,7 @@
         "title": "<p>Welcome</p>\n",
         "body": "<p>This is a timeline of selected projects, <a href=\"#jobs\">jobs</a>, and other things I&#39;ve made with and around computers <a href=\"#codemasters\">since the year 2000</a>. It&#39;s intended to give an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
         "links": [],
-        "date": "2025-03-01",
+        "date": "2025-12-31",
         "categories": [
             "introduction"
         ]
@@ -30,6 +30,18 @@
         "image": {
             "src": "foom.jpg"
         }
+    },
+    {
+        "id": "freelance25",
+        "title": "<p>Consulting Creative Technologist</p>\n",
+        "body": "<p>I left <a href=\"#bbc-rd\">BBC Research &amp; Development</a> at the end of 2024. Since then, I&#39;ve helping clients to explore and work with emerging creative technolgies through a mix of consultancy, strategy, and hands-on making and prototyping.</p>\n",
+        "links": [],
+        "date": "2025-01-01",
+        "categories": [
+            "jobs",
+            "freelance",
+            "consulting"
+        ]
     },
     {
         "id": "tldr",
