@@ -1,5 +1,5 @@
 ---
-categories: [art,team-lead,greatest-hits,events]
+categories: [art,team-lead,greatest-hits,events,community]
 date: 2022-06-02
 ---
 

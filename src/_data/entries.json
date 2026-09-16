@@ -4,15 +4,98 @@
         "title": "<p>Welcome</p>\n",
         "body": "<p>This is a timeline of selected projects, <a href=\"#jobs\">jobs</a>, and other things I&#39;ve made with and around computers <a href=\"#codemasters\">since the year 2000</a>. It&#39;s intended to give an overview of the kinds of things I&#39;ve done and where my interests and experience lie.</p>\n<p>You can filter which entries are displayed with the selector at the top right of this page. If you&#39;re pressed for time, there&#39;s a <a href=\"#greatest-hits\">greatest-hits</a> category.</p>\n<p>There&#39;s links to various other bits of me <a href=\"/\">here</a>.</p>\n",
         "links": [],
-        "date": "2025-12-31",
+        "date": "3000-12-31",
         "categories": [
             "introduction"
         ]
     },
     {
+        "id": "mmu-keynote",
+        "title": "<p>High Tide: Some ways to think about the AI hype machine</p>\n",
+        "body": "<p>I was invited to present a keynote speech at the Arts &amp; Humanities AI Summit at Manchester Metropolitan University in June 2026.</p>\n<p>I spoke about the need to speak and think about AI with nuance; acknowledging the usefulness that we&#39;re all getting from the technology, but also its significant negative effects in the world. I sketched out the way I think things will shake down over the next few years and encouraged the audience to hold on to the practices and tools they find helpful, while emphasising where we have agency to change the things we don&#39;t, and why I think human creativity is irreplaceable.</p>\n",
+        "links": [],
+        "date": "2026-06-29",
+        "categories": [
+            "talks",
+            "ai",
+            "art",
+            "education"
+        ],
+        "image": {
+            "src": "mmu-keynote.jpg"
+        }
+    },
+    {
+        "id": "llm-workshops",
+        "title": "<p>Local LLM Workshops</p>\n",
+        "body": "<p>I&#39;m very interested in decentralised, community-level infrastructure for AI (and any significant technology, really), and the shifts in power structures and citizen agency that are possible when technical capability moves from large central players to communities and individuals.\nTo this end, I&#39;ve been running workshops for people who are interested in running LLMs and AI services on their own computers. <a href=\"#bad-ai\">The Worst Possible AI Server</a> is another product of the same set of interests.</p>\n",
+        "links": [],
+        "date": "2026-04-16",
+        "categories": [
+            "llm",
+            "ai",
+            "workshops",
+            "education",
+            "community"
+        ],
+        "image": {
+            "src": "llm-workshops.jpg"
+        }
+    },
+    {
+        "id": "clockwork",
+        "title": "<p>Clockwork Dog: Audience tracking R&amp;D</p>\n",
+        "body": "<p>Clockwork Dog build hardware and software systems that run escape rooms and immersive interactive experiences. They came to me in May 2025 with an R&amp;D brief: they wanted to add individual audience member tracking as an option in their builds. I researched and evaluated a few possible technologies for the job, then built a prototype system around our chosen technology to test it in action. I delivered a first working version of an integration with their showrunning system, and a healthy relationship with an excellent technology partner. </p>\n",
+        "links": [],
+        "date": "2025-11-25",
+        "categories": [
+            "immersive",
+            "freelance",
+            "prototyping",
+            "creative-technologist"
+        ],
+        "image": {
+            "src": "clockwork.jpg"
+        }
+    },
+    {
+        "id": "mitih",
+        "title": "<p>MediaCity Immersive Technologies Innovation Hub</p>\n",
+        "body": "<p>MITIH is an <a href=\"https://iuk-business-connect.org.uk/casestudy/transforming-immersive-technology-innovation-the-impact-of-mitih/\">Innovate UK funded</a> accelerator for creative technology innovation in Greater Manchester. I acted as their Head of Innovation from January - April 2025, running a programme matchmaking artists with technologists for an innovation showcase in early 2025, contributing to funding bids, and managing external relationships. I have returned to help with facilitation and planning on other strands of activity in 2025 and 2026.</p>\n",
+        "links": [],
+        "date": "2025-03-31",
+        "categories": [
+            "immersive",
+            "freelance",
+            "consulting",
+            "producer",
+            "workshops"
+        ],
+        "image": {
+            "src": "mitih.jpg"
+        }
+    },
+    {
+        "id": "bad-ai",
+        "title": "<p>The Worst Possible AI Server</p>\n",
+        "body": "<p>An ongoing project to figure out how to build a cheap, low-end LLM inference server from used parts. For a lot of people, there&#39;s a decent chunk of their day-to-day use of AI services that aren&#39;t too complex - simple search questions, or conversations to work through ideas. These use cases don&#39;t need giant, hyper-capable models run by big tech companies; a modest local server should be more than capable of handling them. The Worst Possible AI Server is an example of such a server.</p>\n",
+        "links": [],
+        "date": "2025-03-31",
+        "categories": [
+            "llm",
+            "ai",
+            "workshops",
+            "education",
+            "community"
+        ],
+        "image": {
+            "src": "bad-ai.jpg"
+        }
+    },
+    {
         "id": "foom",
         "title": "<p>Foom: A Strategic Simulation</p>\n",
-        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of artificial intelligence (AI) and its societal impact. It&#39;s part foresight workshop, part immersive roleplaying game.</p>\n<p>I&#39;m building software to run the show, from tablet interfaces for participants to live ambient news displays and the showrunning backend. I&#39;m also helping to shape the experience, narrative, and game design. </p>\n",
+        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of artificial intelligence (AI) and its societal impact. It&#39;s part foresight workshop, part immersive roleplaying game.</p>\n<p>I built software to run the show, from tablet interfaces for participants to live ambient news displays and the showrunning backend. I also helped to shape the experience, narrative, and game design. </p>\n",
         "links": [
             {
                 "href": "https://foom.live",
@@ -77,7 +160,8 @@
         "date": "2023-10-25",
         "categories": [
             "events",
-            "art"
+            "art",
+            "community"
         ],
         "image": {
             "src": "dorkbot.jpg"
@@ -104,6 +188,19 @@
         ],
         "image": {
             "src": "projections.jpg"
+        }
+    },
+    {
+        "id": "thrifty-ink",
+        "title": "<p>Thrifty Ink</p>\n",
+        "body": "<p>Thrifty Ink is a DIY printmaking project I started in 2023. I&#39;ve always loved big, bold typographic prints and the idea of making them by hand, but the traditional typesetting process is very fiddly and time-intensive — as well as expensive, if you want to start buying your own type and equipment. So I designed a typesetting system that can be made out of laser-cut plywood, and printed with simple block-printing techniques.</p>\n",
+        "links": [],
+        "date": "2023-09-22",
+        "categories": [
+            "art"
+        ],
+        "image": {
+            "src": "thrifty-ink.jpg"
         }
     },
     {
@@ -136,7 +233,8 @@
             "art",
             "team-lead",
             "greatest-hits",
-            "events"
+            "events",
+            "community"
         ],
         "image": {
             "src": "emf22.jpg"

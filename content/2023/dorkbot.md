@@ -1,5 +1,5 @@
 ---
-categories: [events,art]
+categories: [events,art,community]
 date: 2023-10-25
 ---
 
