@@ -1,5 +1,5 @@
 ---
-categories: [talks,research,greatest-hits]
+categories: [talks,research,greatest-hits,sound,events]
 date: 2018-09-01
 ---
 

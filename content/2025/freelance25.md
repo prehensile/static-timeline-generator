@@ -1,5 +1,5 @@
 ---
-categories: [jobs,freelance,consulting]
+categories: [jobs,freelance,consulting,creative-technologist]
 date: 2025-01-01
 ---
 

@@ -1,5 +1,5 @@
 ---
-categories: [llm,ai,workshops,education,community]
+categories: [llm,ai,education,creative-technologist,hardware,prototyping]
 date: 2025-03-31
 ---
 # The Worst Possible AI Server

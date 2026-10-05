@@ -1,5 +1,5 @@
 ---
-categories: [art,software,bots,installation,exhibition,greatest-hits]
+categories: [art,software,bots,installation,exhibition,greatest-hits,machine-vision,events]
 date: 2014-09-05 13:00:00
 ---
 

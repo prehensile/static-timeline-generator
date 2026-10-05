@@ -1,5 +1,5 @@
 ---
-categories: [flash,web,jobs,preloaded]
+categories: [flash,web,jobs,preloaded,software,games]
 date: 2006-09-01
 ---
 

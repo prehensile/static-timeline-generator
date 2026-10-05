@@ -1,5 +1,5 @@
 ---
-categories: [bbc-rd,research,publications,prototyping] 
+categories: [bbc-rd,research,publications,prototyping,hardware] 
 date: 2017-06-14
 ---
 

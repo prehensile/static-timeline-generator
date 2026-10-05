@@ -1,5 +1,5 @@
 ---
-categories: [hardware,electronics,prototyping,creative-technologist] 
+categories: [hardware,prototyping,creative-technologist,software] 
 date: 2018-05-15
 ---
 

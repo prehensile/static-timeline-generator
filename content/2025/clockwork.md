@@ -1,5 +1,5 @@
 ---
-categories: [immersive,freelance,prototyping,creative-technologist]
+categories: [immersive,freelance,prototyping,creative-technologist,hardware,software,research]
 date: 2025-11-25
 ---
 

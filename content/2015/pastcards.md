@@ -1,5 +1,5 @@
 ---
-categories: [software,web,art,greatest-hits,creative-technologist,greatest-hits]
+categories: [software,web,art,greatest-hits,creative-technologist]
 date: 2015-10-14
 ---
 

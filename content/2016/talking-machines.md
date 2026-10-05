@@ -1,5 +1,5 @@
 ---
-categories: [bbc-rd,sound,voice,vui,research,prototyping,software,greatest-hits,producer,team-lead] 
+categories: [bbc-rd,sound,voice,research,prototyping,software,greatest-hits,producer,team-lead,amazon-echo] 
 date: 2016-11-04
 ---
 

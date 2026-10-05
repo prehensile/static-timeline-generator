@@ -1,5 +1,5 @@
 ---
-categories: [jobs,research,prototyping,bbc-rd]
+categories: [jobs,research,prototyping,bbc-rd,creative-technologist,producer,foresight]
 date: 2016-03-07
 ---
 

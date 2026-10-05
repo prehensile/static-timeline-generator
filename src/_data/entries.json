@@ -52,7 +52,10 @@
             "immersive",
             "freelance",
             "prototyping",
-            "creative-technologist"
+            "creative-technologist",
+            "hardware",
+            "software",
+            "research"
         ],
         "image": {
             "src": "clockwork.jpg"
@@ -84,9 +87,10 @@
         "categories": [
             "llm",
             "ai",
-            "workshops",
             "education",
-            "community"
+            "creative-technologist",
+            "hardware",
+            "prototyping"
         ],
         "image": {
             "src": "bad-ai.jpg"
@@ -95,7 +99,7 @@
     {
         "id": "foom",
         "title": "<p>Foom: A Strategic Simulation</p>\n",
-        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of artificial intelligence (AI) and its societal impact. It&#39;s part foresight workshop, part immersive roleplaying game.</p>\n<p>I built software to run the show, from tablet interfaces for participants to live ambient news displays and the showrunning backend. I also helped to shape the experience, narrative, and game design. </p>\n",
+        "body": "<p>In January 2025 I joined the creative team behind Foom, an immersive strategic simulation designed to engage participants in exploring the future of AI and its societal impact. It&#39;s part foresight workshop, part immersive roleplaying game.</p>\n<p>I built software to run the show, from tablet interfaces for participants to live ambient news displays and the showrunning backend. I also helped to shape the experience, narrative, and game design. </p>\n",
         "links": [
             {
                 "href": "https://foom.live",
@@ -108,7 +112,8 @@
             "foresight",
             "strategy",
             "ai",
-            "creative-technologist"
+            "creative-technologist",
+            "software"
         ],
         "image": {
             "src": "foom.jpg"
@@ -123,7 +128,8 @@
         "categories": [
             "jobs",
             "freelance",
-            "consulting"
+            "consulting",
+            "creative-technologist"
         ]
     },
     {
@@ -146,6 +152,22 @@
             "creative-technologist",
             "research"
         ]
+    },
+    {
+        "id": "watch",
+        "title": "<p>Time-blindness watch</p>\n",
+        "body": "<p>I am absolutely astounded that some (most?) people have pretty clear visualisations of time in their head: they know exactly where they are in the current week, month, year etc. For me? As I said at the time: “have you ever ridden a bike in freezing fog? It’s kind of like that. There’s this soup of upcoming things I know vaguely about, and they crystallise onto my eyebrows as I move towards them”.</p>\n<p>I&#39;ve built various things over the years to help with this, including <a href=\"https://prehensile.co.uk/clock/\">this webpage</a>, which draws progress bars to visualise time at a few different scales. In 2024, I was able to bring the same idea to a cheap hackable smartwatch, using <a href=\"https://www.espruino.com/\">Espruino</a>.</p>\n",
+        "links": [],
+        "date": "2024-03-29",
+        "categories": [
+            "hardware",
+            "electronics",
+            "prototyping",
+            "hacks"
+        ],
+        "image": {
+            "src": "watch.jpg"
+        }
     },
     {
         "id": "dorkbot",
@@ -197,7 +219,9 @@
         "links": [],
         "date": "2023-09-22",
         "categories": [
-            "art"
+            "art",
+            "hardware",
+            "prototyping"
         ],
         "image": {
             "src": "thrifty-ink.jpg"
@@ -301,7 +325,8 @@
             "bbc-rd",
             "research",
             "art",
-            "greatest-hits"
+            "greatest-hits",
+            "ai"
         ],
         "image": {
             "src": "better-images.jpg"
@@ -340,9 +365,10 @@
         "date": "2020-12-24",
         "categories": [
             "publications",
-            "vui",
+            "voice",
             "research",
-            "greatest-hits"
+            "greatest-hits",
+            "bbc-rd"
         ]
     },
     {
@@ -386,7 +412,6 @@
         "categories": [
             "freelance",
             "hardware",
-            "electronics",
             "software",
             "installation",
             "immersive",
@@ -394,7 +419,8 @@
             "research",
             "team-lead",
             "greatest-hits",
-            "creative-technologist"
+            "creative-technologist",
+            "producer"
         ],
         "image": {
             "src": "punchdrunk.jpg"
@@ -461,7 +487,9 @@
         "categories": [
             "talks",
             "research",
-            "greatest-hits"
+            "greatest-hits",
+            "sound",
+            "events"
         ],
         "image": {
             "src": "bump.jpg"
@@ -480,9 +508,9 @@
         "date": "2018-05-15",
         "categories": [
             "hardware",
-            "electronics",
             "prototyping",
-            "creative-technologist"
+            "creative-technologist",
+            "software"
         ],
         "image": {
             "src": "paperclock.jpg"
@@ -507,7 +535,6 @@
             "language",
             "artistic-collaborator",
             "creative-technologist",
-            "greatest-hits",
             "greatest-hits"
         ],
         "image": {
@@ -579,7 +606,7 @@
         "categories": [
             "bbc-rd",
             "software",
-            "vui",
+            "voice",
             "amazon-echo",
             "sound",
             "greatest-hits",
@@ -605,7 +632,7 @@
         "date": "2017-10-26",
         "categories": [
             "bbc-rd",
-            "vui",
+            "voice",
             "research",
             "publications"
         ]
@@ -626,7 +653,8 @@
             "talks",
             "amazon-echo",
             "sound",
-            "greatest-hits"
+            "greatest-hits",
+            "voice"
         ],
         "image": {
             "src": "miz.jpg"
@@ -647,7 +675,8 @@
             "bbc-rd",
             "research",
             "publications",
-            "prototyping"
+            "prototyping",
+            "hardware"
         ]
     },
     {
@@ -689,13 +718,13 @@
             "bbc-rd",
             "sound",
             "voice",
-            "vui",
             "research",
             "prototyping",
             "software",
             "greatest-hits",
             "producer",
-            "team-lead"
+            "team-lead",
+            "amazon-echo"
         ]
     },
     {
@@ -711,7 +740,8 @@
         "date": "2016-08-05",
         "categories": [
             "talks",
-            "sound"
+            "sound",
+            "events"
         ]
     },
     {
@@ -729,7 +759,10 @@
             "jobs",
             "research",
             "prototyping",
-            "bbc-rd"
+            "bbc-rd",
+            "creative-technologist",
+            "producer",
+            "foresight"
         ]
     },
     {
@@ -746,14 +779,12 @@
         "categories": [
             "freelance",
             "hardware",
-            "electronics",
             "software",
             "installation",
             "immersive",
             "prototyping",
             "greatest-hits",
             "creative-technologist",
-            "greatest-hits",
             "research"
         ],
         "image": {
@@ -776,8 +807,7 @@
             "web",
             "art",
             "greatest-hits",
-            "creative-technologist",
-            "greatest-hits"
+            "creative-technologist"
         ],
         "image": {
             "src": "pastcards.jpg"
@@ -841,7 +871,9 @@
             "bots",
             "installation",
             "exhibition",
-            "greatest-hits"
+            "greatest-hits",
+            "machine-vision",
+            "events"
         ],
         "image": {
             "src": "sublime.jpg"
@@ -860,7 +892,6 @@
         "date": "2013-11-30",
         "categories": [
             "hardware",
-            "electronics",
             "software",
             "installation",
             "elk",
@@ -909,7 +940,6 @@
         "date": "2013-08-01",
         "categories": [
             "hardware",
-            "electronics",
             "software",
             "installation",
             "elk",
@@ -935,7 +965,8 @@
             "immersive",
             "prototyping",
             "art",
-            "greatest-hits"
+            "greatest-hits",
+            "creative-technologist"
         ],
         "image": {
             "src": "coney.jpg"
@@ -1022,7 +1053,9 @@
             "creative-technologist",
             "software",
             "freelance",
-            "greatest-hits"
+            "greatest-hits",
+            "artistic-collaborator",
+            "sound"
         ]
     },
     {
@@ -1080,7 +1113,9 @@
             "flash",
             "web",
             "jobs",
-            "preloaded"
+            "preloaded",
+            "software",
+            "games"
         ]
     },
     {
@@ -1092,7 +1127,8 @@
         "categories": [
             "flash",
             "web",
-            "jobs"
+            "jobs",
+            "software"
         ]
     },
     {
@@ -1110,7 +1146,8 @@
             "flash",
             "web",
             "games",
-            "jobs"
+            "jobs",
+            "software"
         ],
         "image": {
             "src": "codemasters.jpg"

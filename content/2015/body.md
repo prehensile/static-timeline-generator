@@ -1,5 +1,5 @@
 ---
-categories: [freelance,hardware,electronics,software,installation,immersive,prototyping,greatest-hits,creative-technologist,greatest-hits,research] 
+categories: [freelance,hardware,software,installation,immersive,prototyping,greatest-hits,creative-technologist,research] 
 date: 2015-11-22
 ---
 

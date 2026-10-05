@@ -1,5 +1,5 @@
 ---
-categories: [bbc-rd,talks,amazon-echo,sound,greatest-hits]
+categories: [bbc-rd,talks,amazon-echo,sound,greatest-hits,voice]
 date: 2017-10-10
 ---
 
