@@ -90,7 +90,8 @@
             "education",
             "creative-technologist",
             "hardware",
-            "prototyping"
+            "prototyping",
+            "hacks"
         ],
         "image": {
             "src": "bad-ai.jpg"
@@ -161,7 +162,6 @@
         "date": "2024-03-29",
         "categories": [
             "hardware",
-            "electronics",
             "prototyping",
             "hacks"
         ],
@@ -221,7 +221,8 @@
         "categories": [
             "art",
             "hardware",
-            "prototyping"
+            "prototyping",
+            "hacks"
         ],
         "image": {
             "src": "thrifty-ink.jpg"
@@ -510,7 +511,8 @@
             "hardware",
             "prototyping",
             "creative-technologist",
-            "software"
+            "software",
+            "hacks"
         ],
         "image": {
             "src": "paperclock.jpg"
@@ -535,7 +537,8 @@
             "language",
             "artistic-collaborator",
             "creative-technologist",
-            "greatest-hits"
+            "greatest-hits",
+            "hacks"
         ],
         "image": {
             "src": "mncars.jpg"
@@ -586,7 +589,8 @@
             "sound",
             "installation",
             "creative-technologist",
-            "greatest-hits"
+            "greatest-hits",
+            "hacks"
         ],
         "image": {
             "src": "cloudrunner.jpg"
@@ -1030,7 +1034,8 @@
             "web",
             "language",
             "greatest-hits",
-            "jobs"
+            "jobs",
+            "hacks"
         ],
         "image": {
             "src": "philter.jpg"

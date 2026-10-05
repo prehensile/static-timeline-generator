@@ -1,5 +1,5 @@
 ---
-categories: [art,software,amazon-echo,language,sound,installation,creative-technologist,greatest-hits]
+categories: [art,software,amazon-echo,language,sound,installation,creative-technologist,greatest-hits,hacks]
 date: 2018-02-21
 ---
 

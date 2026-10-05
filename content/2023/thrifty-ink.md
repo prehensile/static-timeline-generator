@@ -1,5 +1,5 @@
 ---
-categories: [art,hardware,prototyping]
+categories: [art,hardware,prototyping,hacks]
 date: 2023-09-22
 ---
 # Thrifty Ink

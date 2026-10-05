@@ -1,5 +1,5 @@
 ---
-categories: [art,software,installation,exhibition,language,artistic-collaborator,creative-technologist,greatest-hits]
+categories: [art,software,installation,exhibition,language,artistic-collaborator,creative-technologist,greatest-hits,hacks]
 date: 2018-04-18 13:00:00
 ---
 

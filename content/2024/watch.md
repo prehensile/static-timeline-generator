@@ -1,5 +1,5 @@
 ---
-categories: [hardware,electronics,prototyping,hacks] 
+categories: [hardware,prototyping,hacks] 
 date: 2024-03-29
 ---
 
