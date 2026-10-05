@@ -1,5 +1,8 @@
 # Static timeline generator
 
+> [!WARNING]
+> **This repository is deprecated.** It has been rolled into [prehensile/prehensile.github.io](https://github.com/prehensile/prehensile.github.io), where development continues.
+
 Easily create a static timeline webpage like my [Wikimedia timeline](https://www.mollywhite.net/wikimedia-timeline/). Check out a preview of this sample site, deployed with GitHub Pages: https://molly.github.io/static-timeline-generator/.
 
 **Contents**
